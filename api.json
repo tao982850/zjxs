@@ -718,7 +718,7 @@
             "name": "电影先生",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
+            "jar":  "./jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
