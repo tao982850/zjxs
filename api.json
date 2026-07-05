@@ -233,7 +233,99 @@
             "name": "资源站聚合",
             "type": 3,
             "api": "./lib/资源站聚合.py"
-        },          
+        },
+	    {
+            "key": "可可影视",
+            "name": "可可｜秒播",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1#{{曲奇-c}}",
+                "特殊": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+                "曲-c": "https://www.kkys04.com/渲染目标:/name=\"t\".*?value=\"(.*?)\"/请求头(特殊)[工具:渲染#url]",
+                "曲奇-c": "{{曲-c}}[工具:返回{{奇-c}}]",
+                "奇-c": "{{响应头}}[工具:Cookie$⊕set-cookie=\\[截取\\]]",
+                "域名-c": "https://www.kkys04.com",
+                "主页url": "https://www.kkys04.com",
+                "数组": "<div class=\"module-item\">&&</a>",
+                "标题": "<div class=\"v-item-title\">&&</div>",
+                "副标题": "<span>&&</span>[不含:可可]",
+                "图片": "{{二-c}}+data-original=\"&&\"[不含:http]",
+                "链接": "href=\"&&\"",
+                "影片年代": "class=\"detail-tags-item\">&&</a>",
+                "影片地区": "class=\"detail-tags-item\">&&</a>[含序号:2]",
+                "影片类型": "class=\"detail-tags-item\">&&</a>[含序号:3]",
+                "导演": "导演*</div>&&</div>",
+                "主演": "演员*</div>&&</div>",
+                "简介": "detail-desc\">&&</div>",
+                "线路数组": "<span class=\"source-item-label&&/span>[不含:4K(]",
+                "线路标题": ">&&<",
+                "播放数组": "<div class=\"episode-list&&</div>",
+                "播放列表": "&&分割(<a)",
+                "播放标题": ">&&<",
+                "播放链接": "href=\"&&\"",
+                "跳转播放链接": "const playSource = {*src*\"&&\"||TMDPPPP = '&&'[工具:解aes-Isu7fOAvI6!&IKpAbVdhf&^F]",
+                "过滤词": "baidu.com",
+                "搜索url": "{{域名-c}}/search?t={{曲-c}}&k={wd}",
+                "搜索二次截取": "<div class=\"search-result-list&&<div class=\"pagenation-box",
+                "搜索数组": "<a&&</a>",
+                "搜索标题": "title=\"&&\"",
+                "搜索副标题": "<div class=\"tags\">&&</div>",
+                "搜索图片": "{{二-c}}+data-original=\"&&\"[不含:http]",
+                "搜索链接": "href=\"&&\"",
+                "分类url": "https://www.kkys04.com/show/{cateId}-{class}-{area}-{lang}-{year}-{by}-{catePg}.html;;ad0m0s0xn",
+                "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$6",
+                "排序": "综合$1#最新$2#最热$3#评分$4",
+                "剧情": "Netflix&剧情&喜剧&动作&爱情&恐怖&惊悚&犯罪&科幻&悬疑&奇幻&冒险&战争&历史&古装&家庭&传记&武侠&歌舞&短片&动画&儿童&职场||Netflix&剧情&爱情&喜剧&犯罪&悬疑&古装&动作&家庭&惊悚&奇幻&美剧&科幻&历史&战争&韩剧&武侠&言情&恐怖&冒险&都市&职场||纪录&真人秀&记录&脱口秀&剧情&历史&喜剧&传记&相声&节目&歌舞&冒险&运动&Season&犯罪&短片&搞笑&晚会||Netflix&动态漫画&剧情&动画&喜剧&冒险&动作&奇幻&科幻&儿童&搞笑&爱情&家庭&短片&热血&益智&悬疑&经典&校园&Anime&运动&亲子&青春&恋爱&武侠&惊悚||逆袭&甜宠&虐恋&穿越&重生&剧情&科幻&武侠&爱情&动作&战争&冒险&其它",
+                "剧情值": "*",
+                "地区": "中国大陆&中国香港&中国台湾&美国&日本&韩国&英国&法国&德国&印度&泰国&丹麦&瑞典&巴西&加拿大&俄罗斯&意大利&比利时&爱尔兰&西班牙&澳大利亚&其他||中国大陆&中国香港&韩国&美国&日本&法国&英国&德国&中国台湾&泰国&印度&其他||中国大陆&中国香港&中国台湾&美国&日本&韩国&其他||日本&中国大陆&中国台湾&美国&中国香港&韩国&英国&法国&德国&印度&泰国&丹麦&瑞典&巴西&加拿大&俄罗斯&意大利&比利时&爱尔兰&西班牙&澳大利亚&其他||空",
+                "地区值": "*",
+                "语言": "国语&粤语&英语&日语&韩语&法语||国语&粤语&英语&日语&韩语&法语||国语&粤语&英语&日语&韩语&法语||国语&粤语&英语&日语&韩语&法语||空",
+                "语言值": "*",
+                "二-c": "<script src=\"&&\"[包含:rdul][工具:源码#'截取'∬\"截取\"]"
+            }
+        }, 
+        {
+            "key": "XBPQ_毒舌",
+            "name": "毒舌｜秒播",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "作者": "黑哥",
+                "编码": "UTF-8",
+                "请求头": "User-Agent$MOBILE_UA",
+                "播放请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://m.xnhrsb.com/",
+                "首页": "120",
+                "起始页": "1",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索模式": "1",
+                "分类url": "https://m.xnhrsb.com/dsshiyisw/{cateId}-{area}--{class}-{lang}-{letter}------{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+        },   
+       {
+            "key": "盛世影视",
+            "name": "盛世┃影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+                "分类url": "https://rrys.lv/k/{cateId}--------{catePg}---/",
+                "线路标题": "盛世",
+                "简介": ⚠️勿信广告，谨防诈骗⚠️"
+            }
+        },
         {
             "key": "独播库",
             "name": "独播库",
@@ -413,13 +505,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.czzymovie.com"
-        },
-        {
-            "key": "云播影视",
-            "name": "云播｜TVB",
-            "type": 3,
-            "api": "csp_Tvyb",
-            "ext": "http://www.viptvb06.com,http://www.viptvb07.com"
         },
         {
             "key": "骚火影视",
@@ -633,7 +718,7 @@
             "name": "电影先生",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/12.jar",
+            "jar": "./jar/XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -656,19 +741,6 @@
                 "分类": "电影$dianying#剧集$juji#动漫$dongman#综艺$zongyi"
             }
         },   
-        {
-           "key": "🍀",
-           "name": "4K线",
-           "type": 3,
-           "api": "https://pan.szfx.top/down.php/08343ea7d5d8d12da1c16f9ccf03040d.js",
-           "ext": {
-           "host": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/sss.txt",
-            "key": "wNCwbXzr0Bm6cS2C",
-            "init": "V122",
-            "api": 2,
-            "ua": "okhttp/3.10.0"
-             }
-        },    
         {
             "name": "橘汁|秒播",
             "key": "Juzhi",
