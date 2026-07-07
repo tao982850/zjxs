@@ -2,7 +2,7 @@
 // 严禁将其用于任何商业用途，下载后请于 24 小时内删除，搜索结果均来自源站，本人不承担任何责任。
 
 import {Crypto, _} from 'assets://js/lib/cat.js';
-let host = 'https://bbys.app';
+let host = 'https://www.bbys.app';
 let device_id = '';
 const pkg = 'com.sunshine.tv';
 const ver = '4';
