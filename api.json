@@ -385,7 +385,16 @@
             "filterable": 1,
             "ext": "https://www.sta-cafe.com"
         },    
-        
+        {
+            "key": "豌豆",
+            "name": "豌豆",
+            "type": 3,
+            "api": "https://meow.668yun.top/c/m51OYHV4qdrt/豌豆.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://s2ykfzb.cn"
+        },    
 	    {
             "key": "青木影院",
             "name": "青木影院",
