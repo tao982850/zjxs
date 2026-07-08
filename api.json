@@ -499,6 +499,13 @@
             "api": "./py/映像星球.py",
             "changeable": 1
         }, 
+	    {
+            "key": "58影视",
+            "name": "58影视",
+            "type": 3,
+            "api": "./py/58影视.py",
+            "changeable": 1
+        }, 
         {
             "key": "皮克网",
             "name": "皮克网",
