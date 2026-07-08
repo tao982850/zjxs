@@ -369,6 +369,19 @@
             },
             "changeable": 1
         },   
+	    {
+               "key": "茉莉",
+               "name": "茉莉蓝光4k",
+               "type": 3,
+               "searchable": 1,
+               "changeable": 1,
+               "api": "csp_AppGet",
+               "ext": {
+               "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+               "dataKey": "88689667dce61725",
+               "dataIv": "88689667dce61725"
+               }
+        },
         {
             "key": "@电影港",
             "name": "@电影港",
