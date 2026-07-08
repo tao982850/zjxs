@@ -416,6 +416,12 @@
             "type": 3,
             "api": "./ext/青木影院.js"
         }, 
+	    {
+            "key": "kkys",
+            "name": "可可影视",
+            "type": 3,
+            "api": "./ext/kkys.js"
+        },       
         {
             "key": "bubu",
             "name": "布布",
