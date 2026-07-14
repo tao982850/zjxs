@@ -2426,9 +2426,9 @@
     ],
     "parses": [
        {
-           "name": "个人聚合解析", 
+           "name": "豪华资源解析", 
             "type": 1,
-           "url": "https://api.52xiaobai.cn/api/parse.php?token=0e4e24034770d1a482ae9407e842e816&url="
+           "url": "https://hhzyjiexi.com/play/?ur="
        },
        {
            "name": "解析聚合",
