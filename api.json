@@ -2426,11 +2426,6 @@
     ],
     "parses": [
        {
-           "name": "豪华资源解析", 
-            "type": 1,
-           "url": "https://hhzyjiexi.com/play/?ur="
-       },
-       {
            "name": "解析聚合",
            "type": 3,
            "url": "Demo"
