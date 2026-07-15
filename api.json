@@ -416,6 +416,16 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		{
+            "key": "4K影视.js",
+            "name": "4K• 影视",
+            "type": 3,
+            "api": "./ext/4KVM.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0
+        },
         {
             "key": "电影港",
             "name": "电影港",
