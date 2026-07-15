@@ -463,10 +463,10 @@
             "changeable": 1
         }, 
 	    {
-            "key": "饭团",
-            "name": "饭团",
+            "key": "瓜子影视",
+            "name": "瓜子影视",
             "type": 3,
-            "api": "./py/饭团.py",
+            "api": "./py/瓜子影视.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
