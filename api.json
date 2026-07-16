@@ -532,7 +532,18 @@
          "quickSearch":1,
          "filterable":1,
          "playerType":2
-        },   
+        },  
+        {
+           "key":"山楂影视",
+           "name":"山楂影视",
+           "type":3,
+           "api":"./py/山楂影视.py",
+           "searchable":1,
+           "changeable":1,
+           "quickSearch":1,
+           "filterable":1,
+           "playerType":2
+        },
         {
          "key":"皮皮虾",
          "name":"皮皮虾",
