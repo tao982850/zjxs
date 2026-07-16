@@ -45,10 +45,9 @@ class Spider(Spider):
         's32': {'name': '飘零资源', 'api': 'https://p2100.net/api.php/provide/vod'},
         's33': {'name': '360资源', 'api': 'https://360zy.com/api.php/seaxml/vod/'},
         's34': {'name': '魔都资源', 'api': 'https://www.mdzyapi.com/api.php/provide/vod'},
-        's35': {'name': '影剧资源', 'api': 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/'},
-
-        
+        's35': {'name': '影剧资源', 'api': 'https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/'},      
     }
+    
     # 需要过滤的关键词列表
     FILTER_KEYWORDS = ['足球', '综艺', '篮球', '写真热舞','擦边', '伦理', '两性', '三级', '倫理', '淫','AV', '色','福利', '成人', '18+', '偷拍','自拍', '理论','激情','GAY','SEX','同人','体育','球','西部','未知','NBA','斯诺克','演员','新闻','预告','解说','']
 
