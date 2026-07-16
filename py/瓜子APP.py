@@ -21,7 +21,7 @@ class Spider(Spider):
     def __init__(self):
         self.name = "瓜子"
         self.hosts = [
-            'https://apinew.uozvr.com',
+            '',
             'https://api.w32z7vtd.com',
             'https://api.6a7nnf7.com',
             'https://api.umygrx3.com',
