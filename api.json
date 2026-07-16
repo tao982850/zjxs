@@ -2462,6 +2462,11 @@
           "type": 2,
           "url": "Sequence"
        },
+	  {
+           "name": "★官解",
+           "type": 0,
+           "url": "https://jxapi.cc"
+        },   
        {
            "name": "解析专线",
            "type": "1",
