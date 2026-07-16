@@ -2461,12 +2461,7 @@
           "name": "轮询",
           "type": 2,
           "url": "Sequence"
-       },
-	  {
-           "name": "★官解",
-           "type": 1,
-           "url": "https://v.gimy.bot/jd/?url=JD-7ea9c30bfb152014d134f7d18640b1280&jctype=JD2K"
-        },   
+       }, 
        {
            "name": "解析专线",
            "type": "1",
