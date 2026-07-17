@@ -412,24 +412,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-	    {
-            "key": "蛋挞TV",
-            "name": "蛋挞TV",
-            "type": 3,
-            "api": "./py/蛋挞TV.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "威视TV",
-            "name": "威视TV",
-            "type": 3,
-            "api": "./py/威视TV.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
 		{
             "key": "4K影视.js",
             "name": "4K• 影视",
