@@ -142,26 +142,6 @@
             }
         },
         {
-            "key": "久久",
-            "name": "久久｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://99cms.jj99.icu:8199/api.php/app/"
-        },
-        {
-            "key": "闪影",
-            "name": "闪影｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
-        },
-        {
             "key": "飞飞",
             "name": "飞飞丨APP",
             "type": 3,
