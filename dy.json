@@ -413,6 +413,18 @@
             "filterable": 1
         },
 		{
+              "key": "漫闪JAR",
+              "name": "漫闪",
+              "type": 3,
+              "api": "csp_Manshan",
+              "jar": "./lib/漫闪.jar",
+              "searchable": 1,
+              "quickSearch": 1,
+              "filterable": 1,
+              "ext": "",
+              "timeout": 60
+        },
+		{
             "key": "4K影视.js",
             "name": "4K• 影视",
             "type": 3,
