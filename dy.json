@@ -2472,6 +2472,11 @@
            "type": 3,
            "url": "Demo"
        },
+	   {
+        "name": "个人聚合解析", 
+        "type": 1, 
+        "url": "https://api.52xiaobai.cn/api/parse.php?token=476c0b3f004cc6e26bcfc6090d020f82&url="
+       },
        {
           "name": "并发",
            "type": 2,
