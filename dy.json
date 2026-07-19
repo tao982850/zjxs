@@ -208,20 +208,17 @@
                 "dataIv": "88689667dce61725"
             }
         },
-  {
-            "key": "高清",
-            "name": "高清 • APP",
+        {
+            "key": "极影",
+            "name": "极影",
             "type": 3,
-            "api": "csp_AppQi",
+            "api": "https://fastlink.cokey.xyz/f/5lO2Fd/%E6%9E%81%E5%BD%B1.js",
             "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
             "changeable": 1,
-            "ext": {
-                "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/602.txt",
-                "dataKey": "FTgP4Gq8zPiqbt7M",
-                "dataIv": "FTgP4Gq8zPiqbt7M",
-                "init": "initV120",
-                "ua": "okhttp/3.10.0"
-            }
+            "playable": 1,
+            "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
         },
         {
             "key": "魔方",
