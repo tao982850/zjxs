@@ -404,6 +404,20 @@
             "filterable": 0
         },
 		{
+             "key" : "裤佬奈飞4K",
+             "name" : "裤佬丨奈飞丨4K",
+             "type" : 1,
+             "api" : "https://api.wsyzy.net/api.php/provide/vod",
+             "searchable" : 1,
+             "quickSearch" : 1,
+             "filterable" : 1,
+             "categories" : [
+                   "4K电影",
+                   "Netflix电影",
+                  "Netflix自制剧"
+                   ]
+        },
+		{
             "key": "电影人生",
             "name": "电影人生",
             "type": 3,
