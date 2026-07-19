@@ -1155,21 +1155,6 @@
                   "欧美动漫"
           ]
        },
-	   {
-          "key": "无水印资源",
-          "name": "无水印资源",
-          "type": 0,
-          "api": "https://api.wsyzy.net/api.php/provide/vod/from/wsym3u8/at/xml",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "categories": [
-             "电影",
-             "电视剧",
-             "动漫",
-             "爽文短剧"
-              ]
-       },
        {
          "key": "zuida",
          "name": "最大资源",
@@ -2496,11 +2481,6 @@
           "header": {
           "User-Agent": "Dalvik/2.1.0"
            }
-       },
-	   {
-          "name": "解析1无水印",
-          "type": 0,
-          "url": "https://xxx.xxx?jx="
        },
        {
             "name": "我的解析",
