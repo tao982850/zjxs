@@ -394,6 +394,17 @@
             "changeable": 1
         },  
         {
+           "key": "4kav",
+           "name": "4kav",
+           "type": 3,
+           "api": "./py/4kav.py",
+           "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://4k-av.com",
+            "timeout": 60
+        },
+        {
             "key": "幕白影视.js",
             "name": "幕白 • 影视",
             "type": 3,
