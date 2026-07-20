@@ -622,18 +622,7 @@
                 "ratio": 0.75
             },
             "changeable": 1
-        },
-        {
-            "key": "Pomo",
-            "name": "Pomo",
-            "type": 3,
-            "api": "./py/Pomo.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },     
+        },  
         {
             "key": "歪比┃4k",
             "name": "歪比┃4K",
