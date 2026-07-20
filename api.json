@@ -822,17 +822,7 @@
             "name": "🎶芸芸|音乐",
             "type": 3,
             "api": "./ext/芸芸音乐.js"
-        },    
-        {
-            "key": "蒋勇短剧",
-            "name": "蒋勇短剧",
-            "type": 3,
-            "api": "./py/蒋勇短剧.py",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "switchable": 1
-        },     
+        },       
         {
             "key": "七星短剧",
             "name": "七星#短剧py",
