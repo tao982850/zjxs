@@ -2453,6 +2453,11 @@
         "type": 1, 
         "url": "https://api.52xiaobai.cn/api/parse.php?token=476c0b3f004cc6e26bcfc6090d020f82&url="
        },
+	   {
+            "name": "夜夜",
+            "type": 1,
+            "url": "https://json.cfysoft.cc/api/?key=db40a4b2f15c4078301a068181bb2724&url="
+       },
        {
           "name": "并发",
            "type": 2,
