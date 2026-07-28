@@ -366,8 +366,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "分类url": "https://faxiantv.cc/index.php/s/{cateId}-{catePg}.html",
-                "分类": "电影$1#剧集$2#短剧$3#动漫$4"
+                "分类url": "https://faxiantv.cc/index.php/"
             }
         },
         {
