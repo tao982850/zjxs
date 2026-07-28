@@ -360,7 +360,7 @@
             "key": "发现Tv",
             "name": "发现TV",
             "type": 3,
-            "jar": "./jar/XBPQ.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
