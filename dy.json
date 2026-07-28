@@ -356,20 +356,6 @@
                 "分类": "电影$1#剧集$2#综艺$3#动漫$4"
             }
         },  
-		{
-            "key": "发现Tv",
-            "name": "发现TV",
-            "type": 3,
-            "jar": "./jar/xyqxbpq.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "分类url": "https://faxiantv.cc/{cateId}-{catePg}.index.php",
-                "分类": "电影$1#剧集$2#短剧$3#动漫$4"
-            }
-        },
         {
             "key": "大海影视",
             "name": "大海｜影视",
