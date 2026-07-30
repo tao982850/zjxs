@@ -479,7 +479,25 @@
             "name": "大马猴影视",
             "type": 3,
             "api": "./ext/大马猴影视.js"
-        },  
+        }, 
+		{
+            "key": "共青春",
+            "name": "共青春",
+            "type": 3,
+            "api": "./py/共青春.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+		},
+		{
+            "key": "橘汁4k",
+            "name": "橘汁4k",
+            "type": 3,
+            "api": "./py/橘汁4k.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+		},
         {
             "key": "kkys",
             "name": "可可影视",
