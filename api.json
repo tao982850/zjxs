@@ -583,7 +583,18 @@
                 "ratio": 0.75
             },
             "changeable": 1
-        },        
+        },  
+		{
+            "key": "l98",
+            "name": "l98",
+            "type": 3,
+            "api": "./py/l98.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },          
         {
             "key": "映像星球",
             "name": "映像星球",
