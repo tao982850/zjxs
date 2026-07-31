@@ -597,7 +597,7 @@
             "key": "bubu",
             "name": "布布",
              "type": 3,
-              "api": "./py/布布.py",
+              "api": "./py/布布4K.py",
               "searchable": 1,
               "quickSearch": 1,
               "filterable": 0,
