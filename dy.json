@@ -511,7 +511,7 @@
             "filterable": 1
 		},
 	    {
-            "key": "橘汁",
+            "key": "橘汁★",
             "name": "橘汁4K",
             "type": 3,
             "api": "./py/橘汁4K.py",
@@ -528,7 +528,16 @@
                 "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
                 "version": "3.0.2.1",
                 "decrypt": "1"
-            }
+                   }
+          },
+          {
+               "key": "火云4K",
+               "name": "火云4K",
+               "type": 3,
+               "api": "./py/火云4K.js",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
         },
         {
             "key": "映像星球",
