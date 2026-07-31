@@ -442,18 +442,6 @@
             "api": "./ext/kkys.js"
         },       
         {
-            "key": "bubu",
-            "name": "布布",
-             "type": 3,
-              "api": "./py/布布.py",
-              "searchable": 1,
-              "quickSearch": 1,
-              "filterable": 0,
-              "changeable": 1,
-              "ext": {  "site": "https://bubutv.top,https://bbys.app,https://www.bbys.app"
-              }
-        },
-        {
             "key": "豌豆",
             "name": "豌豆",
             "type": 3,
