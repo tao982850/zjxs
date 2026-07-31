@@ -594,16 +594,17 @@
             "changeable": 1
         }, 
         {
-            "key": "布布",
+            "key": "bubu",
             "name": "布布",
-            "type": 3,
-            "api": "./py/布布.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },  
+             "type": 3,
+              "api": "./py/布布.py",
+              "searchable": 1,
+              "quickSearch": 1,
+              "filterable": 0,
+              "changeable": 1,
+              "ext": {  "site": "https://bubutv.top,https://bbys.app,https://www.bbys.app"
+              }
+        },
         {
             "key": "歪比┃4k",
             "name": "歪比┃4K",
