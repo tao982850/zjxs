@@ -2494,87 +2494,9 @@
           "url": "Sequence"
        }, 
        {
-           "name": "解析专线",
-           "type": "1",
-           "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
-          "flag": [
-          "LXTX"
-           ],
-          "header": {
-          "User-Agent": "Dalvik/2.1.0"
-           }
-       },
-       {
-            "name": "我的解析",
-            "type": 1,
-            "url": "http://127.0.0.1:6677/proxy?do=parse&key=687474703a2f2f3130332e34352e3136322e3230373a31333133312fe5b08fe8998ee696912e7068703f75726c3d2c687474703a2f2f34332e3133392e39342e39363a383836362f6170692f3f6b65793d37653637616233333165653235353636346632393839636132313731633264642675726c3d2c68747470733a2f2f6e6969756d612e71692d73696d706c652e746f702f6e6e2e7068703f75726c3d&filters=mall,mp4&url="
-       },
-       {
           "name": "蓝光1",
            "type": 0,
            "url": "https://jx.xmflv.com/?url="
-       },
-       {
-            "name": "4K芒果",
-            "type": 1,
-            "url": "https://fanghu.52xiaobai.cn/mg4k/mg4k.php?url="
-       },
-       {
-			"name": "公益解析",
-			"type": "1",
-			"url": "https://rizzon.in/wp-content/json.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-	   },
-       {
-         "name": "自动解析",
-         "type": 1,
-         "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
-         "ext": {
-         "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "imgo",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-           ]
-         }
        },
         {
             "name": "Json聚合",
@@ -2697,37 +2619,6 @@
                 }
             }
         },
-        {
-            "name": "极速",
-            "type": 0,
-            "url": "https://jx.2s0.cn/player/?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ],
-                "ext": {
-                    "header": {
-                        "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                    }
-                }
-            }
-        },   
         {
             "name": "虾米哩",
             "type": 0,
