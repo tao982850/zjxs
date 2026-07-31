@@ -516,16 +516,13 @@
             "api": "./ext/kkys.js"
         },       
         {
-            "key": "bubu",
-            "name": "布布",
-             "type": 3,
-              "api": "./py/布布.py",
-              "searchable": 1,
-              "quickSearch": 1,
-              "filterable": 0,
-              "changeable": 1,
-              "ext": {  "site": "https://bubutv.top,https://bbys.app,https://www.bbys.app"
-              }
+            "key": "火云4K",
+            "name": "火云4K",
+            "type": 3,
+            "api": "./py/火云4K.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "豌豆",
@@ -645,7 +642,7 @@
             "key": "布布",
             "name": "布布",
             "type": 3,
-            "api": "./py/布布.py",
+            "api": "./py/布布4K.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
