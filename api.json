@@ -236,39 +236,6 @@
                 "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
             }
         },
- {
-            "key": "无极99",
-            "name": "无极 • APP",
-            "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "http://111.170.140.70:19987/app/bn",
-                "LoginPath": "/app/log",
-                "version": "",
-                "appkey": "c403317c2a2946659b0bcbabdd5de43a",
-                "versionName": "1.0.1",
-                "name": "无极影视",
-                "package": "com.wujiys.app",
-                "buildNumber": "2001",
-                "buildSignature": "A0859BDC35AD3E81D4051E2A4678C77C62773EDB3423DDF1DEFF94CB331D398E"
-            }
-        },
-        {
-            "key": "橙子99",
-            "name": "橙子 • APP",
-            "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "http://113.31.180.218:19987/app/bn",
-                "LoginPath": "/app/log",
-                "appkey": "6e8f3764a0644f3686ab5cdd57bcdf48",
-                "versionName": "4.3.1",
-                "name": "小橙子",
-                "package": "com.xchengzix.app",
-                "buildNumber": "2001",
-                "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
-            }
-        },
         {
             "key": "可可影视",
             "name": "可可｜秒播",
@@ -573,17 +540,6 @@
             "quickSearch": 1,
              "filterable": 0
         }, 
-        {
-            "key": "爱影4k",
-            "name": "爱影★4k",
-            "type": 3,
-            "api": "https://meow.668yun.top/c/CN7bi2JsKnRL/爱影4K.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },  
 		 {
            "key":"l98",
            "name":"l98",
@@ -988,22 +944,6 @@
             }
         },    
         {
-            "name": "橘汁|秒播",
-            "key": "Juzhi",
-            "type": 3,
-            "jar": "./jar/6.jar",
-            "api": "csp_Juzhi",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "host": "",
-                "site": "https://vip.123pan.cn/1848463092/cct/az5.txt",
-                "version": "3.0.1.9"
-            }
-        },
-        {
             "key": "檬",
             "name": "檬|影视",
             "type": 3,
@@ -1011,14 +951,6 @@
             "playerType": 2,
             "jar": "./jar/柠檬.jar",
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-      },
-      {
-            "key": "爱影",
-            "name": "爱影｜4K",
-            "jar": "./jar/XM.jar",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt|nzEqOgYk3QzHuEP8|V122|okhttp/3.10.0"
       },
       {
             "name": "Pan3┃4K",
