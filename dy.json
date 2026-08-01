@@ -490,17 +490,6 @@
             "quickSearch": 1,
              "filterable": 0
         }, 
-        {
-            "key": "爱影4k",
-            "name": "爱影★4k",
-            "type": 3,
-            "api": "https://meow.668yun.top/c/CN7bi2JsKnRL/爱影4K.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        }, 
 	    {
             "key": "共青春",
             "name": "共青春",
@@ -952,23 +941,7 @@
                 "分类url": "https://silidm.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
                 "分类": "电影$dianying#剧集$juji#动漫$dongman#综艺$zongyi"
             }
-        },    
-        {
-            "name": "橘汁|秒播",
-            "key": "Juzhi",
-            "type": 3,
-            "jar": "./jar/6.jar",
-            "api": "csp_Juzhi",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": {
-                "host": "",
-                "site": "https://vip.123pan.cn/1848463092/cct/az5.txt",
-                "version": "3.0.1.9"
-            }
-        },
+        },   
         {
             "key": "檬",
             "name": "檬|影视",
@@ -977,14 +950,6 @@
             "playerType": 2,
             "jar": "./jar/柠檬.jar",
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-      },
-      {
-            "key": "爱影",
-            "name": "爱影｜4K",
-            "jar": "./jar/XM.jar",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt|nzEqOgYk3QzHuEP8|V122|okhttp/3.10.0"
       },
       {
             "name": "Pan3┃4K",
