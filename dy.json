@@ -222,16 +222,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		  {
-            "key": "四叶草",
-            "name": "四叶草",
-            "type": 3,
-            "api": "./py/四叶草.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-     {
+        {
             "key": "云朵影视",
             "name": "云朵影视",
             "type": 3,
