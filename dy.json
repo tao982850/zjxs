@@ -213,6 +213,15 @@
                 "dataIv": "1234567887654321"
             }
         },
+	    {
+            "key": "咕噜",
+            "name": "咕噜",
+            "type": 3,
+            "api": "./js/咕噜.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "可可影视",
             "name": "可可｜秒播",
