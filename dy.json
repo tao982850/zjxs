@@ -203,7 +203,7 @@
 	    {
             "key": "四叶草",
             "name": "四叶草秒播",
-			"jar": "./jar/xyqxbpq.jar",
+		    "jar": "http://1.94.31.214/api/dgyy/0528.jar;md5;a4803a4ceaaab08c6c6c7b9bb643ce85"
             "type": 3,
             "api": "csp_AppQi",
             "searchable": 1,
