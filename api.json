@@ -221,7 +221,7 @@
                 "dataIv": "1234567887654321"
             }
         },
- {
+        {
             "key": "剧圈99",
             "name": "剧圈 • APP",
             "type": 3,
@@ -235,6 +235,15 @@
                 "buildNumber": "2002",
                 "buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
             }
+        },
+	    {
+            "key": "咕噜",
+            "name": "咕噜",
+            "type": 3,
+            "api": "./js/咕噜.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "可可影视",
