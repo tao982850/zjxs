@@ -199,22 +199,7 @@
             "changeable": 1,
             "playable": 1,
             "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
-        },
-	    {
-            "key": "四叶草",
-            "name": "四叶草秒播",
-		    "jar": "http://1.94.31.214/api/dgyy/0528.jar;md5;a4803a4ceaaab08c6c6c7b9bb643ce85"
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                 "site": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/kkk.txt",
-                 "dataKey": "8eeObuwrmS3lRDEs",
-                 "dataIv": "8eeObuwrmS3lRDEs",
-                 "ua": "okhttp/3.10.0"
-		    	}
-        },
+        },	
         {
             "key": "魔方",
             "name": "魔方 • APP",
