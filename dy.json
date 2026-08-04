@@ -355,10 +355,10 @@
             }
         },
 	    {
-            "key": "片库1",
-            "name": "片库1",
+            "key": "优优兔",
+            "name": "优优兔",
             "type": 3,
-            "api": "./js/片库1.js",
+            "api": "./js/优优兔.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
