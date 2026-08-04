@@ -353,7 +353,16 @@
                 "分类url": "https://www.pdy0.com/vt/{cateId}-{catePg}.html",
                 "分类": "电影$1#剧集$2#综艺$3#动漫$4"
             }
-        },  
+        },
+	    {
+            "key": "片库1",
+            "name": "片库1",
+            "type": 3,
+            "api": "./js/片库1.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "大海影视",
             "name": "大海｜影视",
