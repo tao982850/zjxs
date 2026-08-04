@@ -377,11 +377,20 @@
                 "分类": "电影$1#剧集$2#综艺$3#动漫$4"
             }
         },
-		 {
+		{
             "key": "片库1",
             "name": "片库1",
             "type": 3,
             "api": "./js/片库1.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "片库2",
+            "name": "片库2",
+            "type": 3,
+            "api": "./js/片库2.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
