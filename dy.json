@@ -363,6 +363,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		{
+            "key": "片库2",
+            "name": "片库2",
+            "type": 3,
+            "api": "./js/片库2.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "大海影视",
             "name": "大海｜影视",
