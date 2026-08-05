@@ -914,35 +914,35 @@
             "key": "腾讯视频",
             "name": "腾讯｜官方",
             "type": 3,
-            "api": "https://meow.668yun.top/c/TgTGkvVXdaYr/drpy2.min.js",
+            "api": "./1ib/drpy2.min.js",
             "ext": "./lib/腾讯未加密.png"
         },
         {
             "key": "爱奇艺视频",
             "name": "爱奇艺｜官方",
             "type": 3,
-            "api": "https://meow.668yun.top/c/TgTGkvVXdaYr/drpy2.min.js",
+            "api": "./1ib/drpy2.min.js",
             "ext": "./lib/爱奇艺.png"
         },
         {
             "key": "优酷视频",
             "name": "优酷｜官方",
             "type": 3,
-            "api": "https://meow.668yun.top/c/TgTGkvVXdaYr/drpy2.min.js",
+            "api": "./1ib/drpy2.min.js",
             "ext": "./lib/优酷.png"
         },
         {
             "key": "芒果视频",
             "name": "芒果｜官方",
             "type": 3,
-            "api": "https://meow.668yun.top/c/TgTGkvVXdaYr/drpy2.min.js",
+            "api": "./1ib/drpy2.min.js",
             "ext": "./lib/芒果.png"
         },
         {
             "key": "哔哩哔哩",
             "name": "B站｜官方",
             "type": 3,
-            "api": "https://meow.668yun.top/c/TE0ZwTOrVjv3/drpy2.min.js",
+            "api": "./1ib/drpy2.min.js",
             "ext": "./lib/B站.png"
         },    
         {
