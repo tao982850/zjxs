@@ -258,6 +258,20 @@
             "quickSearch": 1,
             "filterable": 1
         },
+	    {
+            "key": "奈飞工厂",
+            "name": "奈飞工厂",
+            "api": "./py/奈飞工厂.py",
+            "changeable": 0,
+            "type": 3,
+            "style": {
+                "type": "rect",
+                "ratio": 1.55
+            },
+            "ext": {
+                "proxy": "127.0.0.1:18890"
+            }
+        },
 		{
              "key": "奇妙",
              "name": "奇妙资源",
