@@ -288,18 +288,11 @@
             "api": "./py/奈飞工厂.py",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+		    "ext": {
+                "proxy": "127.0.0.1:18890"
+            }
         },
-        {
-            "key": "韩剧巴士",
-            "name": "韩剧巴士",
-            "type": 3,
-            "api": "./py/韩剧巴士.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-
         {
             "key": "可可影视",
             "name": "可可｜秒播",
