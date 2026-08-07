@@ -231,6 +231,53 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		{
+            "key": "初见影视",
+            "name": "初见影视",
+            "type": 3,
+            "api": "./py/初见影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "袋鼠影视",
+            "name": "袋鼠影视",
+            "type": 3,
+            "api": "./py/袋鼠影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "好剧影视",
+            "name": "好剧影视",
+            "type": 3,
+            "api": "./py/好剧影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+             "key": "奇妙",
+             "name": "奇妙资源",
+             "type": 1,
+             "api": "https://cj.jusj.top/api.php/provide/vod/",
+             "searchable": 1,
+             "changeable": 1,
+             "playerType": 2,
+             "categories": [
+                 "电影",
+                 "剧集",
+                 "综艺",
+                 "动漫",
+                 "短剧",
+                 "少儿",
+                 "纪录片"
+                  ],
+                "quickSearch": 1,
+                "filterable": 1
+        },
         {
             "key": "可可影视",
             "name": "可可｜秒播",
