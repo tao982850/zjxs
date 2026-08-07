@@ -286,9 +286,6 @@
             "name": "奈飞工厂",
             "type": 3,
             "api": "./py/奈飞工厂.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
 		    "ext": {
                 "proxy": "127.0.0.1:18890"
             }
