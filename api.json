@@ -660,10 +660,10 @@
             "filterable": 1
         },
 	    {
-            "key": "58影视",
-            "name": "58★影视",
+            "key": "808影视",
+            "name": "808影视",
             "type": 3,
-            "api": "./py/58影视.py",
+            "api": "./py/808影视.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
