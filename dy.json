@@ -654,6 +654,13 @@
             "api": "./py/58影视.py",
             "changeable": 1
         }, 
+		{
+            "key": "37电影网",
+            "name": "37电影网",
+            "type": 3,
+            "api": "./py/37电影网.py",
+            "changeable": 1
+        }, 
         {
             "key": "西瓜影视",
             "name": "西瓜影视",
