@@ -651,19 +651,23 @@
          "ext": "http://43.248.117.123:4680"
         },
         {
+            "key": "77影视",
+            "name": "77影视",
+            "type": 3,
+            "api": "./py/77影视.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+	    {
             "key": "58影视",
-            "name": "58影视",
+            "name": "58★影视",
             "type": 3,
             "api": "./py/58影视.py",
-            "changeable": 1
-        }, 
-		{
-            "key": "37电影网",
-            "name": "37电影网",
-            "type": 3,
-            "api": "./py/37电影网.py",
-            "changeable": 1
-        }, 
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "西瓜影视",
             "name": "西瓜影视",
