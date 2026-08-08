@@ -489,10 +489,19 @@
                    ]
         },
 		{
-            "key": "电影人生",
-            "name": "电影人生",
+            "key": "FeerOK",
+            "name": "FeerOK",
             "type": 3,
-            "api": "./js/电影人生.js",
+            "api": "./py/FeerOK.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+		},
+		{
+            "key": "ZLYS",
+            "name": "ZLYS",
+            "type": 3,
+            "api": "./py/ZLYS.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
