@@ -454,24 +454,6 @@
             "filterable": 1
         },
 		{
-            "key": "悟空影院",
-            "name": "悟空影院",
-            "type": 3,
-            "api": "./py/悟空影院.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-		{
-            "key": "枝枝影视",
-            "name": "枝枝影视",
-            "type": 3,
-            "api": "./py/枝枝影视.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-		{
             "key": "555",
             "name": "555",
             "type": 3,
@@ -479,17 +461,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-           "key": "4kav",
-           "name": "4kav",
-           "type": 3,
-           "api": "./py/4kav.py",
-           "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://4k-av.com",
-            "timeout": 60
         },
         {
             "key": "幕白影视.js",
