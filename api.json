@@ -405,19 +405,10 @@
             }
         },
 		{
-            "key": "优优兔",
-            "name": "优优兔",
-            "type": 3,
-            "api": "./js/优优兔.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-		{
             "key": "片库2",
             "name": "片库2",
             "type": 3,
-            "api": "./js/片库2.js",
+            "api": "./js/片库2.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
