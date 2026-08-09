@@ -443,7 +443,34 @@
                 "ratio": 0.75
             },
             "changeable": 1
-        },  
+        }, 
+		{
+            "key": "八戒,
+            "name": "八戒",
+            "type": 3,
+            "api": "./py/八戒.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "枝枝影视,
+            "name": "枝枝影视",
+            "type": 3,
+            "api": "./py/枝枝影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "555,
+            "name": "555",
+            "type": 3,
+            "api": "./py/555.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
            "key": "4kav",
            "name": "4kav",
