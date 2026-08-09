@@ -472,15 +472,6 @@
                ]
         },
 		{
-            "key": "电影人生",
-            "name": "电影人生",
-            "type": 3,
-            "api": "./js/电影人生.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-		},
-		{
             "key": "4K影视.js",
             "name": "4K• 影视",
             "type": 3,
