@@ -401,20 +401,11 @@
                 "分类": "电影$1#剧集$2#综艺$3#动漫$4"
             }
         },
-	    {
-            "key": "优优兔",
-            "name": "优优兔",
-            "type": 3,
-            "api": "./js/优优兔.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
 		{
             "key": "片库2",
             "name": "片库2",
             "type": 3,
-            "api": "./js/片库2.js",
+            "api": "./js/片库2.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -488,24 +479,6 @@
                   "Netflix自制剧"
                    ]
         },
-		{
-            "key": "FeerOK",
-            "name": "FeerOK",
-            "type": 3,
-            "api": "./py/FeerOK.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-		},
-		{
-            "key": "ZLYS",
-            "name": "ZLYS",
-            "type": 3,
-            "api": "./py/ZLYS.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-		},
 		{
             "key": "4K影视.js",
             "name": "4K• 影视",
