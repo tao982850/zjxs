@@ -240,15 +240,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-	    {
-            "key": "moovie",
-            "name": "moovie",
-            "type": 3,
-            "api": "https://moovie.c2v2.com/api/vod",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
         {
             "key": "袋鼠影视",
             "name": "袋鼠影视",
