@@ -240,6 +240,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		    {
+            "key": "影牛",
+            "name": "影牛",
+            "type": 3,
+            "api": "./js/影牛.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "袋鼠影视",
             "name": "袋鼠影视",
