@@ -655,10 +655,10 @@
             "filterable": 1
         },
         {
-            "key": "西瓜影视",
-            "name": "西瓜影视",
+            "key": "西瓜TV",
+            "name": "西瓜TV",
             "type": 3,
-            "api": "./py/西瓜影视.py",
+            "api": "./py/西瓜TV.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
