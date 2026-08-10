@@ -2782,7 +2782,7 @@
                 "User-Agent": "Mozilla/5.0"
             }
         },
-		   {
+	{
       "name": "超特解析-01",
       "type": 1,
       "url": "http://gsd-jx.810211.dpdns.org/home/api?type=ys&uid=2733323&key=lbalobOE9F6B7I0DfE&url="
@@ -2946,10 +2946,7 @@
       "name": "备用嗅探2",
       "type": 0,
       "url": "https://jiexi.071811.cc/jx.php?url="
-    }
-
-       
-      
+    }  
     ],
     "rules": [
         {
