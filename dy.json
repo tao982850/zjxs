@@ -222,6 +222,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		 {
+            "key": "检查",
+            "name": "检查",
+            "type": 3,
+            "api": "./py/检查.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "云朵影视",
             "name": "云朵影视",
