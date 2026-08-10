@@ -240,17 +240,16 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		    {
-            "key": "Moovie 影牛",
-            "name": "影牛",
-			 "jar": "./jar/XBPQ.jar",
-            "type": 3,
-            "api": "./js/Moovie 影牛.py",
-            "searchable": 1,
+	    {
+            "api": "https://moovie.c2v2.com/api/vod",
+            "filterable": 0,
+			"jar": "./jar/xyqxbpq.jar",
+            "key": "moovie",
+            "name": "✨Moovie 影牛✨",
             "quickSearch": 1,
-            "filterable": 1,
-		    "ext":"https://moovie.c2v2.com/"
-        },
+            "searchable": 1,
+            "type": 1
+        }
         {
             "key": "袋鼠影视",
             "name": "袋鼠影视",
