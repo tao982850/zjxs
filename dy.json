@@ -243,6 +243,7 @@
 		    {
             "key": "影牛",
             "name": "影牛",
+			 "jar": "./jar/xyqxbpq.jar",
             "type": 3,
             "api": "./js/影牛.py",
             "searchable": 1,
