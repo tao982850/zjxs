@@ -289,6 +289,24 @@
           "filterable": 1,
           "ext": "https://api.axablog.com/api.php/app/"
         },
+	    {
+            "key": "浪酷",
+            "name": "浪酷",
+            "type": 3,
+            "api": "https://raw.giteeusercontent.com/sby1234/www/raw/master/vv/%E6%B5%AA%E9%85%B7.py",
+           "ext": "http://43.248.117.123:4680"
+        },
+		{
+            "key": "自建线路2",
+            "name": "线路-9",
+            "type": 3,
+            "searchable": 1,
+            "quicksearch": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "api": "https://gitee.com/sby1234/www/raw/master/vv/drpy2.min.js",
+            "ext": "https://gitee.com/sby1234/www/raw/master/vv/zjyk.js"
+        },
         {
             "key": "袋鼠影视",
             "name": "袋鼠影视",
