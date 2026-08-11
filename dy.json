@@ -754,14 +754,18 @@
               "quickSearch": 1,
               "filterable": 0,
               "changeable": 1,
-              "ext": {  "site": "https://bubutv.top,https://bbys.app,https://www.bbys.app"
+              "ext": {  "site": "https://bubutv.top,https://duoduozhuiju.com,https://bbys.app,https://www.bbys.app"
               }
         },
         {
             "key": "大师兄",
             "name": "大师兄",
             "type": 3,
-            "api": "./ext/大师兄.js"
+            "api": "./ext/大师兄.js",
+			"searchable":1,
+            "changeable":1,
+            "quickSearch":1,
+            "filterable":1
         },          
         {
             "key": "皮克网",
