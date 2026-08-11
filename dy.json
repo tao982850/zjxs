@@ -231,6 +231,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+	    {
+            "key": "速搜",
+            "name": "速搜",
+            "type": 3,
+            "api": "./py/速搜.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
 		{
             "key": "初见影视",
             "name": "初见影视",
