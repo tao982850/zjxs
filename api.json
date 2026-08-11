@@ -272,6 +272,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+	    {
+            "key": "看客",
+            "name": "看客",
+            "type": 3,
+            "api": "./py/看客.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "好剧影视",
             "name": "好剧影视",
