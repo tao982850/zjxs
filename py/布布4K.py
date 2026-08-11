@@ -30,7 +30,7 @@ class Spider(Spider):
     # 默认也放这里兜底；实际建议在配置 ext.site 里写全。
     # 例如："site": "https://bubutv.top,https://duoduozhuiju.com,https://bbys.app,https://www.bbys.app"
     DEFAULT_SITES = 'https://bubutv.top,https://duoduozhuiju.com,https://bbys.app,https://www.bbys.app'
-    host = 'https://bubutv.top'
+    host = 'https://duoduozhuiju.com'
     sites = []
     device_id = ''
 
