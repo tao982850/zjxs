@@ -241,6 +241,50 @@
             "filterable": 1
         },
 		{
+           "key": "裤佬文才影视",
+           "name": "文才影视",
+           "type": 3,
+           "api": "https://dogpan.com/f/0g38tm/文才影视.py",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "playerType": 2,
+           "ext": {
+           "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+          
+          
+            }
+        },
+		{
+          "key": "小熊官方线",
+          "name": "小熊",
+          "jar": "./jar/xyqxbpq.jar",
+          "type": 3,
+          "api": "csp_AppYsV2",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://api.axablog.com/api.php/app/"
+        },
+	    {
+            "key": "浪酷",
+            "name": "浪酷",
+            "type": 3,
+            "api": "https://raw.giteeusercontent.com/sby1234/www/raw/master/vv/%E6%B5%AA%E9%85%B7.py",
+           "ext": "http://43.248.117.123:4680"
+        },
+		{
+            "key": "自建线路2",
+            "name": "线路-9",
+            "type": 3,
+            "searchable": 1,
+            "quicksearch": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "api": "https://gitee.com/sby1234/www/raw/master/vv/drpy2.min.js",
+            "ext": "https://gitee.com/sby1234/www/raw/master/vv/zjyk.js"
+        },
+		{
             "key": "初见影视",
             "name": "初见影视",
             "type": 3,
