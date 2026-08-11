@@ -28,7 +28,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class Spider(Spider):
     # 默认也放这里兜底；实际建议在配置 ext.site 里写全。
-    # 例如："site": "https://bubutv.top,https://duoduozhuiju.com,https://bbys.app,https://www.bbys.app"
+    # 例如："site": "https://bubutv.top,https://xds2435u23422342342u.top/,https://duoduozhuiju.com,https://bbys.app,https://www.bbys.app"
     DEFAULT_SITES = 'https://bubutv.top,https://duoduozhuiju.com,https://bbys.app,https://www.bbys.app'
     host = 'https://duoduozhuiju.com'
     sites = []
