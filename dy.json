@@ -311,6 +311,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		{
+            "key": "刷不停短剧",
+            "name": "刷不停短剧",
+            "type": 3,
+            "api": "./py/刷不停短剧.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "袋鼠影视",
             "name": "袋鼠影视",
@@ -958,25 +967,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
-        },
-		{
-            "key": "刷不停短剧",
-            "name": "刷不停短剧",
-            "type": 3,
-            "api": "./py/刷不停短剧.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-	    {
-            "key": "HDV短剧",
-            "name": "HDV短剧",
-            "type": 3,
-            "api": "./py/HDV短剧.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+        },	
         {
             "key": "河马短剧",
             "name": "河马#短剧py",
