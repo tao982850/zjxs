@@ -263,6 +263,32 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		{
+           "key": "裤佬文才影视",
+           "name": "文才影视",
+           "type": 3,
+           "api": "https://dogpan.com/f/0g38tm/文才影视.py",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "playerType": 2,
+           "ext": {
+           "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+          
+          
+            }
+        },
+		{
+          "key": "小熊官方线",
+          "name": "小熊",
+          "jar": "./jar/xyqxbpq.jar",
+          "type": 3,
+          "api": "csp_AppYsV2",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://api.axablog.com/api.php/app/"
+        },
         {
             "key": "袋鼠影视",
             "name": "袋鼠影视",
