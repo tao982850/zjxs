@@ -289,10 +289,10 @@
             "filterable": 1
         },
 		{
-            "key": "看剧AI",
-            "name": "看剧AI",
+            "key": "白嫖者联盟",
+            "name": "白嫖者联盟",
             "type": 3,
-            "api": "./py/看剧AI.py",
+            "api": "./py/白嫖者联盟.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
