@@ -688,10 +688,10 @@
                "filterable": 1
         },
 		 {
-               "key": "魔羯座影视",
-               "name": "魔羯座影视",
+               "key": "狐狸影视",
+               "name": "狐狸影视",
                "type": 3,
-               "api": "./py/魔羯座影视.py",
+               "api": "./py/狐狸影视.py",
                "searchable": 1,
                "quickSearch": 1,
                "filterable": 1
