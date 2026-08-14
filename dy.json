@@ -223,19 +223,19 @@
             "filterable": 1
         },
         {
-            "key": "云朵影视",
-            "name": "云朵影视",
+            "key": "云朵影院",
+            "name": "云朵影院",
             "type": 3,
-            "api": "./py/云朵影视.py",
+            "api": "./py/云朵影院.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
 	    {
-            "key": "多多",
-            "name": "多多",
+            "key": "bubu",
+            "name": "布布",
             "type": 3,
-            "api": "./py/多多.py",
+            "api": "./py/bubu.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -755,17 +755,14 @@
             "changeable": 1
         }, 
         {
-            "key": "bubu",
-            "name": "布布",
-             "type": 3,
-              "api": "./py/bubu.py",
-              "searchable": 1,
-              "quickSearch": 1,
-              "filterable": 0,
-              "changeable": 1,
-              "ext": {  "site": "https://323433ssdfd.top, https://xds2435u23422342342u.top,https://dduotv01.top,https://duoduosdf12223234334.top"
-              }
-        },       
+            "key": "520ju",
+            "name": "520ju",
+            "type": 3,
+            "api": "./py/520ju.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },     
         {
             "key": "皮克网",
             "name": "皮克网",
