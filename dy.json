@@ -297,15 +297,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key": "kanju",
-            "name": "看剧",
-            "type": 3,
-            "api": "./py/kanju.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
 		{
            "key": "裤佬文才影视",
            "name": "文才影视",
