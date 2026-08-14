@@ -232,6 +232,15 @@
             "filterable": 1
         },
 	    {
+            "key": "多多",
+            "name": "多多",
+            "type": 3,
+            "api": "./py/多多.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+	    {
             "key": "看客",
             "name": "看客",
             "type": 3,
