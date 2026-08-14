@@ -245,14 +245,53 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key": "云朵影视",
-            "name": "云朵影视",
+           {
+            "key": "电影先生A",
+            "name": "电影先生A",
             "type": 3,
-            "api": "./py/云朵影视.py",
+            "api": "./py/电影先生A.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+	    {
+            "key": "bubu",
+            "name": "布布",
+            "type": 3,
+            "api": "./py/bubu.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "多多",
+            "name": "多多",
+            "type": 3,
+            "api": "./py/多多.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+	    {
+           "key": "山秋",
+           "name": "三秋｜4K",
+           "type": 3,
+           "api": "./py/山秋.py",
+           "ext": {
+            "host": "https://dduotv01.top"
+             },
+            "searchable": 1,
+            "quickSearch": 1,
+             "filterable": 0
+        },
+		 {
+               "key": "火云",
+               "name": "火云",
+               "type": 3,
+               "api": "./py/火云.py",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
         },
 	    {
             "key": "初见影视",
@@ -617,15 +656,6 @@
             "api": "./ext/kkys.js"
         },       
         {
-            "key": "火云4K",
-            "name": "火云4K",
-            "type": 3,
-            "api": "./py/火云4K.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "豌豆",
             "name": "豌豆",
             "type": 3,
@@ -661,18 +691,6 @@
          "quickSearch":1,
          "filterable":1,
          "playerType":2
-        },
-        {
-           "key": "三秋影视",
-           "name": "三秋｜4K",
-           "type": 3,
-           "api": "./py/三秋.py",
-           "ext": {
-            "host": "https://asd123sx23xdacsx.top"
-             },
-            "searchable": 1,
-            "quickSearch": 1,
-             "filterable": 0
         }, 
 		 {
            "key":"l98",
@@ -751,10 +769,10 @@
             "changeable": 1
         }, 
         {
-            "key": "布布",
-            "name": "布布",
+            "key": "兄弟影视",
+            "name": "兄弟影视",
             "type": 3,
-            "api": "./py/布布4K.py",
+            "api": "./py/兄弟影视.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
