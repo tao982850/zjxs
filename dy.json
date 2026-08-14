@@ -679,10 +679,19 @@
             "filterable": 1
 		},
 	    {
-               "key": "牛剧影院",
-               "name": "牛剧影院",
+               "key": "壹秀影视",
+               "name": "壹秀影视",
                "type": 3,
-               "api": "./py/牛剧影院.py",
+               "api": "./py/壹秀影视.py",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
+        },
+		 {
+               "key": "橘子",
+               "name": "橘子影视",
+               "type": 3,
+               "api": "./py/橘子.py",
                "searchable": 1,
                "quickSearch": 1,
                "filterable": 1
