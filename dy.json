@@ -688,10 +688,10 @@
                "filterable": 1
         },
 		 {
-               "key": "橘子",
-               "name": "橘子影视",
+               "key": "魔羯座影视",
+               "name": "魔羯座影视",
                "type": 3,
-               "api": "./py/橘子.py",
+               "api": "./py/魔羯座影视.py",
                "searchable": 1,
                "quickSearch": 1,
                "filterable": 1
