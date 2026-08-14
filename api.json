@@ -302,15 +302,15 @@
                "quickSearch": 1,
                "filterable": 1
         },
-		 {
-               "key": "狐狸影视",
-               "name": "狐狸影视",
+	    {
+               "key": "六六大片网",
+               "name": "六六大片网",
                "type": 3,
-               "api": "./py/狐狸影视.py",
+               "api": "./py/六六大片网.py",
                "searchable": 1,
                "quickSearch": 1,
                "filterable": 1
-        },
+        }, 
 	    {
             "key": "初见影视",
             "name": "初见影视",
