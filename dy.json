@@ -681,10 +681,10 @@
                    }
           },
           {
-               "key": "火云4K",
-               "name": "火云4K",
+               "key": "火云",
+               "name": "火云",
                "type": 3,
-               "api": "./py/火云4K.js",
+               "api": "./py/火云.py",
                "searchable": 1,
                "quickSearch": 1,
                "filterable": 1
