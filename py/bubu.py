@@ -164,10 +164,7 @@ class Spider(Spider):
     host = 'https://323433ssdfd.top',
       'https://xds2435u23422342342u.top',
       'https://dduotv01.top',
-      'https://duoduosdf12223234334.top',
-      
-      
-
+      'https://duoduosdf12223234334.top'
     # API 请求头常量
     X_CLIENT = '8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a'
     WEB_SIGN = 'ddtvf65f3a83d6d9ad6f'
