@@ -640,12 +640,12 @@
          "playerType":2
         },
         {
-           "key": "三秋影视",
+           "key": "山秋",
            "name": "三秋｜4K",
            "type": 3,
-           "api": "./py/三秋.py",
+           "api": "./py/山秋.py",
            "ext": {
-            "host": "https://asd123sx23xdacsx.top"
+            "host": "https://dduotv01.top"
              },
             "searchable": 1,
             "quickSearch": 1,
