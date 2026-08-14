@@ -240,6 +240,36 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		{
+            "key": "多多",
+            "name": "多多",
+            "type": 3,
+            "api": "./py/多多.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+	    {
+           "key": "山秋",
+           "name": "三秋｜4K",
+           "type": 3,
+           "api": "./py/山秋.py",
+           "ext": {
+            "host": "https://dduotv01.top"
+             },
+            "searchable": 1,
+            "quickSearch": 1,
+             "filterable": 0
+        },
+		 {
+               "key": "火云",
+               "name": "火云",
+               "type": 3,
+               "api": "./py/火云.py",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
+        },
 	    {
             "key": "看客",
             "name": "看客",
@@ -639,18 +669,6 @@
          "filterable":1,
          "playerType":2
         },
-        {
-           "key": "山秋",
-           "name": "三秋｜4K",
-           "type": 3,
-           "api": "./py/山秋.py",
-           "ext": {
-            "host": "https://dduotv01.top"
-             },
-            "searchable": 1,
-            "quickSearch": 1,
-             "filterable": 0
-        }, 
 	    {
             "key": "共青春",
             "name": "共青春",
@@ -680,15 +698,6 @@
                 "decrypt": "1"
                    }
           },
-          {
-               "key": "火云",
-               "name": "火云",
-               "type": 3,
-               "api": "./py/火云.py",
-               "searchable": 1,
-               "quickSearch": 1,
-               "filterable": 1
-        },
         {
             "key": "映像星球",
             "name": "映像星球",
