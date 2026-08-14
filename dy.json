@@ -714,6 +714,17 @@
          "filterable":1,
          "playerType":2
         },  
+		{
+         "key":"瓜子",
+         "name":"瓜子",
+         "type":3,
+         "api":"./py/瓜子.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },  
         {
            "key":"山楂影视",
            "name":"山楂影视",
