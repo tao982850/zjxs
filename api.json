@@ -293,6 +293,24 @@
                "quickSearch": 1,
                "filterable": 1
         },
+		   {
+               "key": "壹秀影视",
+               "name": "壹秀影视",
+               "type": 3,
+               "api": "./py/壹秀影视.py",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
+        },
+		 {
+               "key": "狐狸影视",
+               "name": "狐狸影视",
+               "type": 3,
+               "api": "./py/狐狸影视.py",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
+        },
 	    {
             "key": "初见影视",
             "name": "初见影视",
