@@ -688,10 +688,10 @@
                "filterable": 1
         },
 		 {
-               "key": "星辰",
-               "name": "星辰",
+               "key": "六六大片网",
+               "name": "六六大片网",
                "type": 3,
-               "api": "./py/星辰.py",
+               "api": "./py/六六大片网.py",
                "searchable": 1,
                "quickSearch": 1,
                "filterable": 1
