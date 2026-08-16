@@ -324,6 +324,24 @@
             "quickSearch": 1,
             "filterable": 1
         },
+	    {
+               "key": "yt",
+               "name": "yt",
+               "type": 3,
+               "api": "./py/yt.py",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
+        },
+	    {
+               "key": "uukan",
+               "name": "uukan",
+               "type": 3,
+               "api": "./py/uukan.py",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
+        },
 		{
             "key": "VIP兔",
             "name": "VIP兔",
