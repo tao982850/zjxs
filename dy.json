@@ -1021,7 +1021,16 @@
             "name": "🎶芸芸|音乐",
             "type": 3,
             "api": "./ext/芸芸音乐.js"
-        },       
+        },  
+		{
+            "key": "世纪音乐",
+            "name": "世纪音乐",
+            "type": 3,
+            "api": "./py/世纪音乐.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "七星短剧",
             "name": "七星#短剧py",
