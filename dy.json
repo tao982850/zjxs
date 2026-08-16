@@ -1023,10 +1023,10 @@
             "api": "./ext/芸芸音乐.js"
         },  
 		{
-            "key": "世纪音乐",
-            "name": "世纪音乐",
+            "key": "汽水音乐",
+            "name": "汽水音乐",
             "type": 3,
-            "api": "./py/世纪音乐.py",
+            "api": "./py/汽水音乐.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
