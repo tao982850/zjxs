@@ -289,6 +289,15 @@
             "filterable": 1
         },
 		{
+            "key": "mxvod",
+            "name": "mxvod",
+            "type": 3,
+            "api": "./py/mxvod.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
             "key": "VIP兔",
             "name": "VIP兔",
             "type": 3,
