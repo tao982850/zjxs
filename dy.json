@@ -298,6 +298,24 @@
             "filterable": 1
         },
 		{
+            "key": "白嫖者联盟",
+            "name": "白嫖者联盟",
+            "type": 3,
+            "api": "./py/白嫖者联盟.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
+            "key": "netflixgc",
+            "name": "netflixgc",
+            "type": 3,
+            "api": "./py/netflixgc.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
             "key": "VIP兔",
             "name": "VIP兔",
             "type": 3,
