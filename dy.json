@@ -324,6 +324,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+			{
+            "key": "抖音精选",
+            "name": "抖音精选",
+            "type": 3,
+            "api": "./py/抖音精选.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
 	    {
                "key": "yt",
                "name": "yt",
