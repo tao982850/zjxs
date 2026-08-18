@@ -334,6 +334,15 @@
             "filterable": 1
         },
 	    {
+               "key": "南瓜影院",
+               "name": "南瓜影院",
+               "type": 3,
+               "api": "./py/南瓜影院.py",
+               "searchable": 1,
+               "quickSearch": 1,
+               "filterable": 1
+        },
+	    {
                "key": "yt",
                "name": "yt",
                "type": 3,
