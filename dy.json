@@ -960,10 +960,10 @@
          "filterable":1
         },
         {
-            "key": "枫叶影视",
-            "name": "枫叶影视",
+            "key": "茶杯狐",
+            "name": "茶杯狐影视",
             "type": 3,
-            "api": "./py/枫叶.py",
+            "api": "./py/茶杯狐.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
