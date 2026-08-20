@@ -88,7 +88,7 @@ class Spider(Spider):
                 self.log("show error: " + str(e))
         self.run(make)
 
-    Host='https://www.zzztool.com'
+    Host='https://www.cd-zj.com'
 
     cookies = {}
 
