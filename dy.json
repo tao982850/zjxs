@@ -968,6 +968,16 @@
          "quickSearch":1,
          "filterable":1
         },
+		{
+         "key":"劇迷4K",
+         "name":"剧迷4K",
+         "type":3,
+         "api":"./py/劇迷4K.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1
+        },
         {
             "key": "跳验证枫叶",
             "name": "枫叶影视",
