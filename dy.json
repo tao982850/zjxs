@@ -989,7 +989,29 @@
                 "ratio": 0.75
             },
             "changeable": 1
-        },   
+        }, 
+		{
+         "key":"pomo修复版",
+         "name":"pomo",
+         "type":3,
+         "api":"./py/pomo修复版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"58影视",
+         "name":"58网",
+         "type":3,
+         "api":"./py/58影视.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "文才影视",
             "name": "文采🔹蓝光",
