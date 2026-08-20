@@ -969,10 +969,10 @@
          "filterable":1
         },
 		{
-         "key":"劇迷4K",
-         "name":"剧迷4K",
+         "key":"云朵影视",
+         "name":"云朵影视",
          "type":3,
-         "api":"./py/劇迷4K.py",
+         "api":"./py/云朵影视.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
