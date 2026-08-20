@@ -969,10 +969,21 @@
          "filterable":1
         },
         {
-            "key": "茶杯狐",
-            "name": "茶杯狐影视",
+            "key": "跳验证枫叶",
+            "name": "枫叶影视",
             "type": 3,
-            "api": "./py/茶杯狐.py",
+            "api": "./py/跳验证枫叶.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },  
+		{
+            "key": "厂长资源",
+            "name": "在线厂长资源",
+            "type": 3,
+            "api": "./py/厂长资源.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
