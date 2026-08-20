@@ -969,10 +969,10 @@
          "filterable":1
         },
 		{
-         "key":"追剧日历剧情",
-         "name":"追剧日历剧情",
+         "key":"追影",
+         "name":"追影",
          "type":3,
-         "api":"./py/追剧日历剧情.py",
+         "api":"./py/追影.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
