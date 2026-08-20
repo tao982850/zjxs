@@ -8,8 +8,8 @@ from base.spider import Spider as BaseSpider
 
 class Spider(BaseSpider):
     def init(self, extend=""):
-        self.host =['https://maihaolian.com',
-                    'https://www.zzztool.com'
+        self.host =['https://www.zzztool.com',
+                    'https://maihaolian.com'
                    ]
                   
         self.headers = {
