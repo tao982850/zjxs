@@ -242,7 +242,8 @@ class Spider(Spider):
         return {
             'jx': 0,
             'parse': 1,
-            'playUrl': 'https://jx.xiaofengtv.com/home/api?uid=54532782&key=jrtwyFIJKLMORVYZ38&url=',
+            'playUrl':'https://jx.xmflv.com/?url=',
+
             'url': play_url,
             'header': {
                 'User-Agent': self.headers['User-Agent'],
