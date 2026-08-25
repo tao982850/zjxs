@@ -254,10 +254,10 @@
          "playerType":2
         },
 		{
-         "key":"芒果TV版",
-         "name":"芒果TV版",
+         "key":"芒果TV",
+         "name":"芒果TV",
          "type":3,
-         "api":"./py/芒果TV版.py",
+         "api":"./py/芒果TV.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
