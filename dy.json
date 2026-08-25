@@ -253,6 +253,17 @@
          "filterable":1,
          "playerType":2
         },
+		{
+         "key":"芒果TV版",
+         "name":"芒果TV版",
+         "type":3,
+         "api":"./py/芒果TV版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "电影先生A",
             "name": "电影先生A",
