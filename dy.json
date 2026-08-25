@@ -213,6 +213,15 @@
                 "dataIv": "1234567887654321"
             }
         },
+		{
+            "key": "影视大全可用",
+            "name": "影视大全",
+            "type": 3,
+            "api": "./py/影视大全可用.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
 	    {
             "key": "咕噜",
             "name": "咕噜",
