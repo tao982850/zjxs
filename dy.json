@@ -214,10 +214,10 @@
             }
         },
 		{
-         "key":"柚子",
-         "name":"柚子",
+         "key":"糯米影视",
+         "name":"糯米影视",
          "type":3,
-         "api":"./py/柚子.py",
+         "api":"./py/糯米影视.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
