@@ -214,10 +214,10 @@
             }
         },
 		{
-         "key":"糯米影视",
-         "name":"糯米影视",
+         "key":"青麦视频3",
+         "name":"青麦影视",
          "type":3,
-         "api":"./py/糯米影视.py",
+         "api":"./py/青麦视频3.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
