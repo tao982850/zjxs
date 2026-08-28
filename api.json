@@ -229,6 +229,17 @@
             }
         },
 		{
+         "key":"青麦视频3",
+         "name":"青麦影视",
+         "type":3,
+         "api":"./py/青麦视频3.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
             "key": "星河",
             "name": "影视星河",
             "type": 3,
@@ -236,6 +247,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{
+         "key":"剧下饭4K",
+         "name":"剧下饭",
+         "type":3,
+         "api":"./py/剧下饭4K.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
         },
 	    {
             "key": "咕噜",
