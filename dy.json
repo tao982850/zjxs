@@ -214,6 +214,17 @@
             }
         },
 		{
+         "key":"柚子",
+         "name":"柚子",
+         "type":3,
+         "api":"./py/柚子.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
             "key": "星河",
             "name": "影视星河",
             "type": 3,
