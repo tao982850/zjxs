@@ -1021,10 +1021,10 @@
             "changeable": 1
         },  
 		{
-            "key": "厂长资源",
+            "key": "厂长解压修复版",
             "name": "在线厂长资源",
             "type": 3,
-            "api": "./py/厂长资源.py",
+            "api": "./py/厂长解压修复版.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
