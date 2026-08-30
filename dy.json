@@ -1078,14 +1078,6 @@
             }
         },
         {
-            "key": "旺旺影视",
-            "name": "旺旺┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./ext/10.json",
-            "jar": "./jar/10.jar"
-        },
-        {
             "key": "王子4K",
             "name": "王子┃APP",
             "type": 3,
