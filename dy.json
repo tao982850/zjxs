@@ -234,6 +234,17 @@
             "filterable": 1
         },
 		{
+         "key":"星影4K",
+         "name":"星影4K",
+         "type":3,
+         "api":"./py/星影4K.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"剧下饭4K",
          "name":"剧下饭",
          "type":3,
