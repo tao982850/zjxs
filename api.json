@@ -188,18 +188,6 @@
                 "dataIv": "88689667dce61725"
             }
         },
-        {
-            "key": "极影",
-            "name": "极影",
-            "type": 3,
-            "api": "https://fastlink.cokey.xyz/f/5lO2Fd/%E6%9E%81%E5%BD%B1.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "playable": 1,
-            "ext": "http://cmsyun2.qijiyun.vip/api.php/app/"
-        },
        	 {
             "key": "剧圈99",
             "name": "剧圈 • APP",
@@ -894,17 +882,6 @@
          "filterable":1,
          "playerType":2
         },  
-        {
-           "key":"山楂影视",
-           "name":"山楂影视",
-           "type":3,
-           "api":"./py/山楂影视.py",
-           "searchable":1,
-           "changeable":1,
-           "quickSearch":1,
-           "filterable":1,
-           "playerType":2
-        },
         {
          "key":"皮皮虾",
          "name":"皮皮虾",
