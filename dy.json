@@ -163,10 +163,10 @@
             }
         }, 
 		{
-         "key":"猫头鹰",
-         "name":"猫头鹰影视",
+         "key":"芒果TV兼容版",
+         "name":"芒果TV兼容版",
          "type":3,
-         "api":"./py/猫头鹰.py",
+         "api":"./py/芒果TV兼容版.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
