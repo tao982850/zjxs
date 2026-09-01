@@ -517,10 +517,10 @@
             "filterable": 1
         },
 		{
-            "key": "刷不停短剧",
-            "name": "刷不停短剧",
+            "key": "影视4K",
+            "name": "影视4K",
             "type": 3,
-            "api": "./py/刷不停短剧.py",
+            "api": "./py/影视4K.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
