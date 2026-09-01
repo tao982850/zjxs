@@ -173,6 +173,17 @@
          "filterable":1,
          "playerType":2
         },
+	    {
+         "key":"腾讯视频兼容版",
+         "name":"腾讯视频兼容版",
+         "type":3,
+         "api":"./py/腾讯视频兼容版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "王子",
             "name": "王子｜APP",
