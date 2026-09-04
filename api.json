@@ -265,11 +265,22 @@
          "filterable":1,
          "playerType":2
         },
-			{
+		{
          "key":"青鸟影视",
          "name":"青鸟影视",
          "type":3,
          "api":"./py/青鸟影视.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"旺旺影视",
+         "name":"旺旺影视",
+         "type":3,
+         "api":"./py/旺旺影视.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -1667,7 +1678,9 @@
            "国产剧",
            "欧美剧",
            "香港剧",
-           "国产动漫"
+           "国产动漫",
+		   "短剧大全",
+		   "古装仙侠"
         ]
       },  
       {
