@@ -54,6 +54,7 @@
             "key": "YunZhenXiang",
             "name": "秒播帧享",
             "type": 3,
+			"jar": "./jar/xyqxbpq.jar",
             "api": "csp_YunZhenXiang",
             "searchable": 1,
             "quickSearch": 1,
