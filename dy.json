@@ -50,6 +50,19 @@
             "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
         },
+		{
+            "key": "YunZhenXiang",
+            "name": "秒播帧享",
+            "type": 3,
+            "api": "csp_YunZhenXiang",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "index_url": "https://ss.trgfd.cn/cache/index/com.huohuavideo.app.json",
+                "key_api": "https://www.tangsan.fun/zx.php"
+            }
+        },
         {
             "key": "天堂",
             "name": "天堂｜APP",
