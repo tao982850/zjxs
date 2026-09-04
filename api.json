@@ -277,10 +277,10 @@
          "playerType":2
         },
 		{
-         "key":"旺旺影视",
-         "name":"旺旺影视",
+         "key":"6080",
+         "name":"6080影视",
          "type":3,
-         "api":"./py/旺旺影视.py",
+         "api":"./py/6080.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
