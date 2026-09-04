@@ -184,6 +184,13 @@
          "filterable":1,
          "playerType":2
         },
+		{
+            "key": "藤藤",
+            "name": "小腾4k",
+            "type": 3,
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png"
+        },
         {
             "key": "王子",
             "name": "王子｜APP",
