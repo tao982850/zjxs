@@ -288,6 +288,17 @@
          "playerType":2
         },
 		{
+            "key": "速搜2K",
+            "name": "速搜2K",
+            "type": 3,
+            "api": "./py/速搜2K.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },  
+		{
             "key": "星河",
             "name": "影视星河",
             "type": 3,
@@ -1454,15 +1465,6 @@
           "api": "./ext/drpy2.min.js",
          "ext": "./ext/优酷无意云.js"     
       },
-      {
-         "key": "橘皮",
-         "name": "陆城┃橘皮",
-         "type": 3,
-         "api": "csp_Jpys",
-         "playerType": 1,
-         "jar": "https://raw.giteeusercontent.com/jngtao/xs/raw/master/橘皮.jar",
-      "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
-       },
        {
          "key": "剧评",
          "name": "陆城┃剧评",
