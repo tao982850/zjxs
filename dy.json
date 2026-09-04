@@ -251,10 +251,10 @@
          "playerType":2
         },
 		{
-         "key":"6080",
-         "name":"6080影视",
+         "key":"冠建",
+         "name":"冠建影视",
          "type":3,
-         "api":"./py/6080.py",
+         "api":"./py/冠建.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
