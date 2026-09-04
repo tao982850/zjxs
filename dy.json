@@ -262,6 +262,17 @@
          "playerType":2
         },
 		{
+            "key": "iysdq",
+            "name": "影视大全",
+            "type": 3,
+            "api": "./py/iysdq.js",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },  
+		{
             "key": "速搜2K",
             "name": "速搜2K",
             "type": 3,
