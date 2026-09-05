@@ -421,6 +421,15 @@
          "playerType":2
         },
 		{
+            "key": "全球",
+            "name": "聚合全球",
+            "type": 3,
+            "api": "./py/全球.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+		{
             "key": "歪比巴卜4K",
             "name": "歪比巴卜4K",
             "type": 3,
