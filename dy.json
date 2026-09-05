@@ -420,14 +420,16 @@
          "filterable":1,
          "playerType":2
         },
-		{
-            "key": "全球更新",
-            "name": "全球追更",
-            "type": 3,
-            "api": "./py/全球更新.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+		    {
+         "key":"全球更新",
+         "name":"全球更新",
+         "type":3,
+         "api":"./py/全球更新.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
         },
 		{
             "key": "歪比巴卜4K",
