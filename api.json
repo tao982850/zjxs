@@ -341,6 +341,28 @@
          "playerType":2
         },
 		{
+         "key":"抖音云",
+         "name":"抖音云",
+         "type":3,
+         "api":"./py/抖音云.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+	    {
+         "key":"全球更新",
+         "name":"全球更新",
+         "type":3,
+         "api":"./py/全球更新.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"剧下饭4K",
          "name":"剧下饭",
          "type":3,
