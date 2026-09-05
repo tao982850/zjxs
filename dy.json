@@ -422,7 +422,7 @@
         },
 		{
             "key": "全球",
-            "name": "聚合全球",
+            "name": "全球",
             "type": 3,
             "api": "./py/全球.py",
             "searchable": 1,
