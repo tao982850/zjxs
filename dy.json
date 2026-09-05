@@ -410,6 +410,17 @@
             "filterable": 1
         },
 		{
+         "key":"追影",
+         "name":"追影",
+         "type":3,
+         "api":"./py/追影.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
             "key": "歪比巴卜4K",
             "name": "歪比巴卜4K",
             "type": 3,
