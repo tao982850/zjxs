@@ -410,10 +410,10 @@
             "filterable": 1
         },
 		{
-         "key":"喵糖",
-         "name":"喵糖",
+         "key":"糯米影视",
+         "name":"糯米影视",
          "type":3,
-         "api":"./py/喵糖.py",
+         "api":"./py/糯米影视.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
