@@ -410,10 +410,10 @@
             "filterable": 1
         },
 		{
-         "key":"追影",
-         "name":"追影",
+         "key":"喵糖",
+         "name":"喵糖",
          "type":3,
-         "api":"./py/追影.py",
+         "api":"./py/喵糖.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
