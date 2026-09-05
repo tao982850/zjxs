@@ -421,10 +421,10 @@
          "playerType":2
         },
 		{
-            "key": "全球追更了",
+            "key": "全球更新",
             "name": "全球追更",
             "type": 3,
-            "api": "./py/全球追更了.py",
+            "api": "./py/全球更新.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
