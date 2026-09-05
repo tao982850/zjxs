@@ -410,10 +410,10 @@
             "filterable": 1
         },
 		{
-         "key":"糯米影视",
-         "name":"糯米影视",
+         "key":"抖音云",
+         "name":"抖音云",
          "type":3,
-         "api":"./py/糯米影视.py",
+         "api":"./py/抖音云.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
