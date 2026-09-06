@@ -634,6 +634,28 @@
             }
         },
 		{
+         "key":"红果",
+         "name":"红果短剧",
+         "type":3,
+         "api":"./py/红果.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"小蜜蜂",
+         "name":"小蜜蜂",
+         "type":3,
+         "api":"./py/小蜜蜂.js",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
              "key": "奇妙",
              "name": "奇妙资源",
              "type": 1,
