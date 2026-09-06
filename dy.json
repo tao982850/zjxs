@@ -431,6 +431,17 @@
          "filterable":1,
          "playerType":2
         },
+	    {
+         "key":"荐片影视",
+         "name":"荐片影视",
+         "type":3,
+         "api":"./py/荐片影视.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
 		{
             "key": "歪比巴卜4K",
             "name": "歪比巴卜4K",
