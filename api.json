@@ -1700,7 +1700,7 @@
        {
          "key": "量子资源",
          "name": "量子",
-         "type": 0,
+         "type": 1,
          "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
          "searchable": 1,
          "quickSearch": 1,
@@ -1721,7 +1721,7 @@
       {
          "key": "暴风",
          "name": "暴风资源",
-         "type": 0,
+         "type": 1,
          "api": "https://bfzyapi.com/api.php/provide/vod/at/xml",
          "searchable": 1,
          "quickSearch": 1,
@@ -1744,7 +1744,7 @@
       {
          "key": "牛牛",
          "name": "牛牛点播源",
-         "type": 0,
+         "type": ,
          "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
          "searchable": 1,
 		  "playurl": "https://jiexi.niuniuzy.org/m3u8/?url=",
