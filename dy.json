@@ -282,7 +282,18 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
-        },  
+        },
+			{
+         "key":"IFN影院",
+         "name":"IFN影院",
+         "type":3,
+         "api":"./py/IFN影院.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
 		{
             "key": "星河",
             "name": "影视星河",
