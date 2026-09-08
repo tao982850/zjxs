@@ -251,6 +251,17 @@
          "playerType":2
         },
 		{
+         "key":"麒麟影视py",
+         "name":"麒麟影视",
+         "type":3,
+         "api":"./py/麒麟影视py.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"冠建",
          "name":"冠建影视",
          "type":3,
