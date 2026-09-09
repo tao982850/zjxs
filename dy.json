@@ -374,6 +374,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+			{
+            "key": "橘汁TV",
+            "name": "橘汁TV",
+            "type": 3,
+            "api": "./py/橘汁TV.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "电影先生A",
             "name": "电影先生A",
