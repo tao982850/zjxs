@@ -5,7 +5,7 @@
 var rule = {
     title: '腾讯视频',
     host: 'https://v.qq.com',
-    homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
+    homeUrl: 'GetPageData_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
     detailUrl: 'https://node.video.qq.com/x/api/float_vinfo2?cid=fyid',
     searchUrl: '**',
     searchable: 2,
