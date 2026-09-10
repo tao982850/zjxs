@@ -665,10 +665,10 @@
             }
         },
 		{
-         "key":"红果短剧",
+         "key":"红果短剧2",
          "name":"红果短剧",
          "type":3,
-         "api":"./py/红果短剧.py",
+         "api":"./py/红果短剧2.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
