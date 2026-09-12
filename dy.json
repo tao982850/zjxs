@@ -383,6 +383,17 @@
             "quickSearch": 1,
             "filterable": 1
         },
+	    {
+         "key":"mddcloud",
+         "name":"埋堆堆",
+         "type":3,
+         "api":"./py/mddcloud.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "电影先生A",
             "name": "电影先生A",
