@@ -687,6 +687,15 @@
          "playerType":2
         },
 		{
+         "key" : "csp_HongGuo",
+         "name" : "🍎果子┃精选短剧",
+         "type" : 3,
+         "api" : "https://s3plus.meituan.net/opapisdk/op_ticket_1_5673241091_1788770930556_IMPGdz5q.py",
+         "quickSearch" : 1,
+         "searchable" : 1,
+         "changeable" : 0
+        },
+		{
          "key":"小蜜蜂",
          "name":"小蜜蜂",
          "type":3,
