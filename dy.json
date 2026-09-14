@@ -306,10 +306,10 @@
          "playerType":2
         },
 		{
-            "key": "策驰影院",
-            "name": "策驰影院",
+            "key": "哈趣影视",
+            "name": "哈趣影视",
             "type": 3,
-            "api": "./py策驰影院/.py",
+            "api": "./py/哈趣影视.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
