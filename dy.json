@@ -676,10 +676,10 @@
             }
         },
 		{
-         "key":"juhaha",
-         "name":"剧哈哈",
+         "key":"5v55",
+         "name":"5v55",
          "type":3,
-         "api":"./py/juhaha.py",
+         "api":"./py/5v55.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
