@@ -1632,8 +1632,8 @@
 	  {
            "key": "茅台资源",
            "name": "茅台资源",
-           "type": 1,
-           "api": "https://caiji.maotai999.vip/api.php/provide/vod/from/mtm3u8/at/josn/",
+           "type": 0,
+           "api": "https://caiji.maotai999.vip/api.php/provide/vod/from/mtm3u8/at/xml/",
            "searchable": 1,
            "quickSearch": 1,
            "filterable": 1,
