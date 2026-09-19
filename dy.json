@@ -584,21 +584,6 @@
             "filterable": 1
         },
 		{
-           "key": "裤佬文才影视",
-           "name": "文才影视",
-           "type": 3,
-           "api": "https://dogpan.com/f/0g38tm/文才影视.py",
-           "searchable": 1,
-           "quickSearch": 1,
-           "filterable": 1,
-           "playerType": 2,
-           "ext": {
-           "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-          
-          
-            }
-        },
-		{
           "key": "小熊官方线",
           "name": "小熊",
           "jar": "./jar/xyqxbpq.jar",
@@ -849,47 +834,6 @@
                 "分类": "电影$1#剧集$2#综艺$3#动漫$4"
             }
         },	
-    {
-         "key" : "星",
-         "name" : "🌟星星🌟",
-         "type" : 3,
-         "api" : "csp_XBPQ",
-         "searchable" : 1,
-         "quickSearch" : 1,
-        "filterable" : 1,
-        "ext" : {
-                  "作者" : "",
-                  "站名" : "星星影视",
-                  "请求头" : "User-Agent$MOBILE_UA",
-                  "编码" : "UTF-8",
-                  "主页url" : "https://shyaoxuan.com/",
-                  "首页" : "120",
-                  "起始页" : "1",
-                  "分类url" : "/vod_show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;mrc",
-                  "分类" : "电影$1#电视剧$2#综艺$3#动漫$4#短剧$40",
-                  "二次截取" : "",
-                  "数组" : "hl-lazy\"&&</a",
-                  "标题" : "title=\"&&\"",
-                  "图片" : "data-original=\"&&\"",
-                  "副标题" : "🌹+state\">&&</",
-                  "链接" : "href=\"&&\"",
-                  "影片年代" : "年份：&&</li",
-                  "线路数组" : "javascript:void(0);&&/a>",
-                  "线路标题" : "线路+</i>&nbsp;&&</a",
-                  "播放二次截取" : "",
-                  "播放数组" : "id=\"hl-plays-list\">&&</ul>",
-                  "倒序" : "0",
-                  "播放列表" : "<a&&/a>",
-                  "播放标题" : "+>&&<",
-                  "播放链接" : "href=\"&&\"",
-                  "跳转播放链接" : "var player_*\"url\":\"&&\"",
-                  "搜索请求头" : "User-Agent$MOBILE_UA",
-                  "排序" : "最新上映&超高人气&全网热播&高分好评",
-                  "排序值" : "time&hits&up&score",
-                  "筛选" : "1",
-                  "类型" : "动作片$7#喜剧片$8#爱情片$9#科幻片$10#恐怖片$11#剧情片$12#刚刚片$29#战争片$13||国产剧$14#港剧$15#高剧$16#短剧$40#韩剧$17#日剧$18#泰剧$31#欧美剧$19#海外剧$20||大陆综艺$21#午休场$30#港综艺$23#欧美综艺$24||国产动漫$25#日本动漫$26#欧美动漫$27#海外动漫$28||空"
-               }
-        },
 		{
             "key": "片库2",
             "name": "片库2",
@@ -1173,10 +1117,10 @@
             "ext": "https://www.czzymovie.com"  
         },   
 		{
-            "key": "云朵影视",
-            "name": "云朵影视",
+            "key": "红果短剧2",
+            "name": "红果短剧2",
             "type": 3,
-            "api": "./py/云朵影视.py",
+            "api": "./py/红果短剧2.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
