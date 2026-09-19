@@ -613,99 +613,161 @@ class Spider(_BaseSpider):
         except Exception:
             return False
 
-    def _materialize_dex(self):
-        """确保引擎 dex 存在: 内嵌数据首次自动释放 (无需任何外部文件)。
-        返回按优先级排序的候选路径。"""
+
+    def _srv_log(self, msg):
+        """写诊断日志: 应用外存目录优先, 失败退回私有目录, 再退sdcard根"""
         import os as _os
-        cands = ["/sdcard/hgsig/classes.dex", "/data/local/tmp/hgsrv/classes.dex"]
+        line = time.strftime("%H:%M:%S ") + str(msg)
+        try:
+            from android.util import Log
+            Log.e("HGSRV", line)
+        except Exception:
+            pass
+        dirs = []
+        try:
+            from com.chaquo.python import Python
+            app = Python.getInstance().getPlatform().getApplication()
+            ext = app.getExternalFilesDir(None)
+            if ext is not None:
+                dirs.append(ext.getAbsolutePath())
+            dirs.append(app.getFilesDir().getAbsolutePath())
+        except Exception:
+            pass
+        dirs.append("/sdcard")
+        for base in dirs:
+            d = _os.path.join(base, "hgsig")
+            try:
+                _os.makedirs(d, exist_ok=True)
+                p = _os.path.join(d, "srv.log")
+                with open(p, "a") as f:
+                    f.write(line + "\n")
+                self._log_path = p
+                return
+            except Exception:
+                continue
+
+    def _toast(self, msg):
+        """屏幕上弹Toast提示, 无文件/无adb环境下的诊断手段"""
+        try:
+            from com.chaquo.python import Python
+            from android.os import Looper, Handler
+            from android.widget import Toast
+            from java.lang import Runnable
+            app = Python.getInstance().getPlatform().getApplication()
+            h = Handler(Looper.getMainLooper())
+            r = Runnable(lambda: Toast.makeText(app, str(msg), Toast.LENGTH_LONG).show())
+            h.post(r)
+        except Exception:
+            pass
+
+    def _materialize_dex(self):
+        """确保引擎dex存在: 内嵌数据首次自动释放。
+        修复: 候选路径改为应用外存/私有目录优先; 只返回真实存在且大小正常的路径。"""
+        import os as _os
+        cands = []
+        try:
+            from com.chaquo.python import Python
+            app = Python.getInstance().getPlatform().getApplication()
+            ext = app.getExternalFilesDir(None)
+            if ext is not None:
+                cands.append(_os.path.join(ext.getAbsolutePath(), "hgsig/classes.dex"))
+            cands.append(_os.path.join(app.getFilesDir().getAbsolutePath(), "hgsrv/classes.dex"))
+        except Exception:
+            pass
+        cands.append("/sdcard/hgsig/classes.dex")
+        blob = None
+        if "_HG_DEX_Z" in globals():
+            try:
+                import zlib, base64
+                blob = zlib.decompress(base64.b64decode(globals()["_HG_DEX_Z"]))
+            except Exception as e:
+                self._srv_log("dex解压失败: %s" % e)
+                blob = None
+        if blob:
+            for c in cands:
+                try:
+                    _os.makedirs(_os.path.dirname(c), exist_ok=True)
+                    with open(c, "wb") as f:
+                        f.write(blob)
+                    self._srv_log("dex已释放到 %s (%d字节)" % (c, len(blob)))
+                    break
+                except Exception as e:
+                    self._srv_log("释放到 %s 失败: %s" % (c, e))
+        out = []
         for c in cands:
             try:
                 if _os.path.exists(c) and _os.path.getsize(c) > 1000000:
-                    return cands
+                    out.append(c)
             except Exception:
                 pass
-        blob = None
-        g = globals()
-        if "_HG_DEX_Z" in g:
-            try:
-                import zlib, base64
-                blob = zlib.decompress(base64.b64decode(g["_HG_DEX_Z"]))
-            except Exception:
-                blob = None
-        if blob:
-            # 1) sdcard 共享位置 (同机所有壳可复用)
-            try:
-                _os.makedirs("/sdcard/hgsig", exist_ok=True)
-                with open("/sdcard/hgsig/classes.dex", "wb") as f:
-                    f.write(blob)
-                return cands
-            except Exception:
-                pass
-            # 2) 应用私有目录 (无存储权限时的兜底, Chaquopy home)
-            try:
-                home = _os.path.expanduser("~") or "/data/user/0"
-                d = _os.path.join(home, "hgsrv")
-                _os.makedirs(d, exist_ok=True)
-                p = _os.path.join(d, "classes.dex")
-                with open(p, "wb") as f:
-                    f.write(blob)
-                cands.insert(0, p)
-            except Exception:
-                pass
-        return cands
+        self._srv_log("可用dex路径: %s" % out)
+        return out
 
     def _ensure_server(self):
-        """确保本地 SigServer 运行。策略:
-        1) TCP 端口探测已运行实例 (任何壳先起的服务直接复用, 不 ping 具体路径)
-        2) Runtime.exec 拉起独立 app_process 孤儿进程 (壳重启/回收它也存活)
-        3) 进程内 DexClassLoader 加载服务线程 (兜底)
-        dex 来源: 引擎内嵌于本文件, 首次运行自动释放; 亦复用已存在的释放副本。"""
-        # 策略1: 端口探测 (关键修复: 用 TCP 而非 urlopen(.../ping))
+        """FongMi(Chaquopy)修复: 策略A改用应用自身ClassLoader+真实优化输出目录,
+        对象挂self防GC; 策略B去掉setsid/netstat/pkill; 总等待压到20秒内。"""
         if self._port_open():
+            self._srv_log("策略0: 端口已存活")
             return True
 
         dexs = self._materialize_dex()
+        if not dexs:
+            self._srv_log("无可用dex, 放弃")
+            self._toast("HG: 无dex")
+            return False
 
-        # 策略2: 独立孤儿进程
-        # 启动前先清掉可能存在的僵尸实例(端口被占但不服务的进程);
-        # 若绑定失败(如 TIME_WAIT 占端口), 自动重试最多3轮(间隔20秒, 覆盖~60秒窗口)
-        for dex in dexs[:1]:
-            try:
-                from java.lang import Runtime
-                cmd = (
-                    "pkill -f '^/system/bin/app_process / HgServer' 2>/dev/null; "
-                    "CLASSPATH=%s setsid /system/bin/app_process / HgServer "
-                    "</dev/null >/dev/null 2>&1 & "
-                    "sleep 3; "
-                    "for i in 1 2 3; do "
-                    "if netstat -tln 2>/dev/null | grep -q 18888; then break; fi; "
-                    "pkill -f '^/system/bin/app_process / HgServer' 2>/dev/null; "
-                    "sleep 20; "
-                    "CLASSPATH=%s setsid /system/bin/app_process / HgServer "
-                    "</dev/null >/dev/null 2>&1 & done"
-                ) % (dex, dex)
-                Runtime.getRuntime().exec(["/system/bin/sh", "-c", cmd])
-                for _ in range(8):
-                    time.sleep(1)
-                    if self._port_open():
-                        return True
-            except Exception:
-                continue
+        # 策略A: 进程内加载 (FongMi下优先)
+        try:
+            from com.chaquo.python import Python
+            from dalvik.system import DexClassLoader
+            app = Python.getInstance().getPlatform().getApplication()
+            outdir = app.getDir("hg_dexout", 0).getAbsolutePath()
+            self._srv_log("策略A尝试")
+            for dex in dexs:
+                try:
+                    dcl = DexClassLoader(dex, outdir, None, app.getClassLoader())
+                    obj = dcl.loadClass("HgServer").newInstance()
+                    obj.ensureStarted(18888)
+                    self._srv_obj = obj
+                    self._srv_log("策略A: ensureStarted已调用")
+                    for _ in range(5):
+                        time.sleep(1)
+                        if self._port_open():
+                            self._srv_log("策略A: 成功")
+                            self._toast("HG: 服务已启动")
+                            return True
+                    self._srv_log("策略A: 端口未开")
+                except Exception as e:
+                    self._srv_log("策略A异常(%s): %s" % (dex, e))
+        except Exception as e:
+            self._srv_log("策略A不可用: %s" % e)
 
-        # 策略3: 进程内加载 (服务线程随本壳进程存活)
-        for dex in dexs:
-            try:
-                from java.lang import ClassLoader
-                from dalvik.system import DexClassLoader
-                dcl = DexClassLoader(dex, None, None, ClassLoader.getSystemClassLoader())
-                obj = dcl.loadClass("HgServer").newInstance()
-                obj.ensureStarted(18888)
-                for _ in range(5):
-                    time.sleep(1)
-                    if self._port_open():
-                        return True
-            except Exception:
-                continue
+        # 策略B: app_process 独立进程
+        try:
+            from java.lang import Runtime
+            self._srv_log("策略B尝试")
+            for dex in dexs:
+                cmd = ("CLASSPATH=%s /system/bin/app_process / HgServer "
+                       "</dev/null >/dev/null 2>&1 &") % dex
+                for rnd in range(2):
+                    try:
+                        Runtime.getRuntime().exec(["/system/bin/sh", "-c", cmd])
+                        self._srv_log("策略B: 第%d轮拉起" % (rnd + 1))
+                    except Exception as e:
+                        self._srv_log("策略B exec异常: %s" % e)
+                        break
+                    for _ in range(5):
+                        time.sleep(1)
+                        if self._port_open():
+                            self._srv_log("策略B: 成功")
+                            self._toast("HG: 服务已启动")
+                            return True
+            self._srv_log("策略B: 失败")
+        except Exception as e:
+            self._srv_log("策略B不可用: %s" % e)
+
+        self._srv_log("所有策略失败")
+        self._toast("HG: 服务启动失败")
         return False
 
     def _sig_play(self, vid):
@@ -822,13 +884,17 @@ class Spider(_BaseSpider):
         # 形态4: 远程地址无 key
         return main
 
+
     def playerContent(self, flag, id, vipFlags=None):
-        """播放: 免费集 SSR 直链; 锁定集走本地 SigServer (127.0.0.1:18888) 签名+流式解密。"""
+        """播放: 免费集 SSR 直链; 锁定集走本地 SigServer。
+        FongMi修复: header补Referer; 锁定集流地址先做10秒预检, 拿不到首包快速失败,
+        避免播放器无限黑屏转圈。"""
         result = {
             "parse": 0,
             "playUrl": "",
             "url": "",
-            "header": json.dumps({"User-Agent": self.ua}, ensure_ascii=False),
+            "header": json.dumps({"User-Agent": self.ua, "Referer": self.host + "/"},
+                                 ensure_ascii=False),
         }
         raw = str(id).split("#")[0]
         if "_" in raw:
@@ -854,23 +920,48 @@ class Spider(_BaseSpider):
         if not self._ensure_server():
             return result
 
-        # 阶梯式重试: 上游偶发返回不完整数据(videos 缺 main/key)或风控空响应
         best = None
-        for attempt in range(4):
+        for attempt in range(3):
             r = self._sig_play(vid)
             cand = self._extract_videos(r)
             if cand:
                 best = self._pick_best_video(cand)
                 if best:
                     break
-            if attempt < 3:
-                time.sleep(min(3.0, 0.8 * (attempt + 1)))
+            time.sleep(1)
         if not best:
+            self._srv_log("/play 无可用清晰度")
+            self._toast("HG: /play无数据")
             return result
 
         stream_url = self._sig_stream_url(best)
         if not stream_url:
+            self._toast("HG: 流地址为空")
             return result
+        self._srv_log("预检: %s" % stream_url[:120])
+        self._toast("HG: 预检中")
+
+        # 预检: 10秒内必须拿到首包, 否则快速失败
+        try:
+            conn = http.client.HTTPConnection("127.0.0.1", 18888, timeout=10)
+            u = urllib.parse.urlsplit(stream_url)
+            path_q = (u.path or "/") + (("?" + u.query) if u.query else "")
+            conn.request("GET", path_q, headers={"Range": "bytes=0-1023"})
+            resp = conn.getresponse()
+            chunk = resp.read(1024)
+            code = resp.status
+            conn.close()
+            if not chunk:
+                self._srv_log("预检: 流无数据 code=%s" % code)
+                self._toast("HG: 流无数据%s" % code)
+                return result
+            self._srv_log("预检: OK code=%s 首包%d字节" % (code, len(chunk)))
+            self._toast("HG: 流OK")
+        except Exception as e:
+            self._srv_log("预检失败: %s" % e)
+            self._toast("HG: 预检失败")
+            return result
+
         result["url"] = stream_url
         result["playUrl"] = stream_url
         return result
