@@ -1117,10 +1117,10 @@
             "ext": "https://www.czzymovie.com"  
         },   
 		{
-            "key": "红果短剧2",
-            "name": "红果短剧2",
+            "key": "fjszjm",
+            "name": "网飞",
             "type": 3,
-            "api": "./py/红果短剧2.py",
+            "api": "./py/fjszjm.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
@@ -1225,10 +1225,10 @@
          "playerType":2
         },
 		{
-         "key":"58影视",
-         "name":"58网",
+         "key":"juhaha_v3",
+         "name":"剧哈哈",
          "type":3,
-         "api":"./py/58影视.py",
+         "api":"./py/juhaha_v3.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
