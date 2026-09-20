@@ -158,7 +158,7 @@ _UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 _KPTV_TIMEOUT = 6      # 取直链的独立短超时（默认 10s 太久了，拖慢起播）
 
 # 解析源（按实测响应速度排序：快的在前，"自动轮询"优先命中快的）
-# 实测：8090 0.74s < xmflv 1.17s < fongmi 1.58s
+# 实测：
 # 数量控制在 12 个以内：vod_play_url 过长会让详情页卡顿甚至打不开。
 _PARSE_LIST =[
     {"name": "默认接口",   "url": "https://jx.xmflv.com/?url="},
