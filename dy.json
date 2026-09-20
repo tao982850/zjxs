@@ -251,6 +251,28 @@
             }
         },
 		{
+         "key":"油管",
+         "name":"油管",
+         "type":3,
+         "api":"./py/油管.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"五大平台_终极版(采集站)",
+         "name":"五大平台_终极版(采集站)",
+         "type":3,
+         "api":"./py/五大平台_终极版(采集站).py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"青麦视频3",
          "name":"青麦影视",
          "type":3,
