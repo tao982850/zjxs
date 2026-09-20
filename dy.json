@@ -158,7 +158,7 @@
         },
 		{
          "key":"金牌",
-         "name":"金牌视频",
+         "name":"金牌★视频",
          "type":3,
          "api":"./py/金牌.py",
          "searchable":1,
