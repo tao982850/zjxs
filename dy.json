@@ -262,6 +262,17 @@
          "playerType":2
         },
 		{
+         "key":"TVB云播",
+         "name":"TVB",
+         "type":3,
+         "api":"./py/TVB云播.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"五大平台_终极修复版",
          "name":"五大平台_终极修复版",
          "type":3,
