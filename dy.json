@@ -157,10 +157,10 @@
             }
         },
 		{
-         "key":"金牌",
+         "key":"金牌2",
          "name":"金牌★视频",
          "type":3,
-         "api":"./py/金牌.py",
+         "api":"./py/金牌2.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
