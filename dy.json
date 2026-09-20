@@ -262,10 +262,10 @@
          "playerType":2
         },
 		{
-         "key":"五大平台_终极版(采集站)",
-         "name":"五大平台_终极版(采集站)",
+         "key":"五大平台_终极修复版",
+         "name":"五大平台_终极修复版",
          "type":3,
-         "api":"./py/五大平台_终极版(采集站).py",
+         "api":"./py/五大平台_终极修复版.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
