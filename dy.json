@@ -750,7 +750,7 @@
          "key":"极速追剧",
          "name":"极速追剧",
          "type":3,
-         "api":"./py/极速追剧.js",
+         "api":"./js/极速追剧.js",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
