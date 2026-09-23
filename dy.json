@@ -747,6 +747,17 @@
          "playerType":2
         },
 		{
+         "key":"极速追剧",
+         "name":"极速追剧",
+         "type":3,
+         "api":"./py/极速追剧.js",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
              "key": "奇妙",
              "name": "奇妙资源",
              "type": 1,
