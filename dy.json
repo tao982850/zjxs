@@ -619,10 +619,10 @@
             "filterable": 1
         },
 		{
-            "key": "奈飞工厂",
-            "name": "奈飞工厂",
+            "key": "网飞猫修复版",
+            "name": "网飞猫",
             "type": 3,
-            "api": "./py/奈飞工厂.py",
+            "api": "./py/网飞猫修复版.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
