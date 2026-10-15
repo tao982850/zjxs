@@ -40,6 +40,17 @@
          "filterable":1,
          "playerType":2
         },
+		{
+         "key":"广东荔枝电视台",
+         "name":"广东荔枝电视台",
+         "type":3,
+         "api":"./py/广东荔枝电视台.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "热播影视",
             "name": "热播｜APP",
