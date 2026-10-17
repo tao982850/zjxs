@@ -306,10 +306,10 @@
          "playerType":2
         },
 		{
-         "key":"卧龙影院",
-         "name":"卧龙影院",
+         "key":"红果修复",
+         "name":"红果修复",
          "type":3,
-         "api":"./py/卧龙影院.py",
+         "api":"./py/红果修复.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
