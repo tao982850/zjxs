@@ -317,6 +317,28 @@
          "playerType":2
         },
 		{
+         "key":"卧龙影院",
+         "name":"卧龙影院",
+         "type":3,
+         "api":"./py/卧龙影院.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"两个BT影视",
+         "name":"两个BT影视",
+         "type":3,
+         "api":"./py/两个BT影视.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"麒麟影视py",
          "name":"麒麟影视",
          "type":3,
