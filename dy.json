@@ -317,10 +317,10 @@
          "playerType":2
         },
 		{
-         "key":"两个BT影视",
-         "name":"两个BT影视",
+         "key":"duoduo",
+         "name":"多多影视",
          "type":3,
-         "api":"./py/两个BT影视.py",
+         "api":"./py/duoduo.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
