@@ -52,10 +52,10 @@
          "playerType":2
         },
 		{
-         "key":"网易",
-         "name":"网易",
+         "key":"裤佬全家桶",
+         "name":"裤佬",
          "type":3,
-         "api":"./py/网易.py",
+         "api":"./py/裤佬全家桶.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
