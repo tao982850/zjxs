@@ -52,10 +52,10 @@
          "playerType":2
         },
 		{
-         "key":"影牛",
-         "name":"影牛",
+         "key":"网易",
+         "name":"网易",
          "type":3,
-         "api":"./py/影牛.py",
+         "api":"./py/网易.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
