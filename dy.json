@@ -51,6 +51,17 @@
          "filterable":1,
          "playerType":2
         },
+		{
+         "key":"ysp-xymm",
+         "name":"潇雨直播",
+         "type":3,
+         "api":"./py/ysp-xymm.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "热播影视",
             "name": "热播｜APP",
