@@ -52,10 +52,10 @@
          "playerType":2
         },
 		{
-         "key":"ysp-xymm",
-         "name":"潇雨直播",
+         "key":"影牛",
+         "name":"影牛",
          "type":3,
-         "api":"./py/ysp-xymm.py",
+         "api":"./py/影牛.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
