@@ -457,7 +457,7 @@
         },
 		{
       "key": "咕噜",
-      "name": "咕噜 • 4K",
+      "name": "咕噜@4K",
       "type": 3,
       "api": "csp_Gulu",
       "searchable": 1,
@@ -466,7 +466,7 @@
     },
     {
       "key": "橘汁",
-      "name": "橘汁 • 4K",
+      "name": "橘汁@4K",
       "type": 3,
       "api": "csp_AppDrama",
       "searchable": 1,
