@@ -184,6 +184,7 @@ _PARSE_LIST = [
     {"name": "盘古解析",   "url": "https://www.pangujiexi.com/jiexi/?url="},
     {"name": "我看VIP",    "url": "https://a.wkvip.net/?url="},
     {"name": "M3U8解析",   "url": "https://jx.m3u8.tv/jx/jx.php?url="},
+    {"name": " "胖大海",   "url": "https://api.suxun.site/api/gjth?url"},
     {"name": "Jn1解析",    "url": "https://yparse.jn1.cc/index.php?url="},
 ]
 
