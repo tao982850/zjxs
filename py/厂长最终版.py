@@ -2,7 +2,7 @@
 # coding=utf-8
 # !/usr/bin/python
 """
-厂长资源 (4kcz.com) —— TVBox / 影视仓 Python 爬虫 (T4 py)
+厂长资源 ( cz4k. .com) —— TVBox / 影视仓 Python 爬虫 (T4 py)
 功能  : 首页推荐 / 分类浏览+翻页 / 搜索 / 详情选集 / 播放解析(m3u8)
 依赖  : 无第三方强依赖(有 requests 用 requests, 否则回退 urllib)
 修复  : 2026-08 兼容性修复版
