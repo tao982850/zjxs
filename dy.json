@@ -115,26 +115,6 @@
             }
         },
         {
-            "key": "华谊",
-            "name": "华谊｜APP",
-            "type": 3,
-            "api": "csp_AppDrama",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "appName": "华谊",
-                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
-                "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
-                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-                "pkg": "com.muyue.tool",
-                "host": "",
-                "site": "https://vip.123pan.cn/1851089669/oss/az5.txt",
-                "version": "1.0.0.4",
-                "decrypt": "1"
-            }
-        },
-        {
             "key": "苹果",
             "name": "苹果｜APP",
             "type": 3,
@@ -155,26 +135,6 @@
             }
         },
         {
-            "key": "薯条",
-            "name": "薯条｜APP",
-            "type": 3,
-            "api": "csp_AppDrama",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "appName": "薯条影视",
-                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-                "dataKey": "A1VACZJWDKRZY1P3MFV0DDRAZ3F3PT0=",
-                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-                "pkg": "com.st.standroid",
-                "host": "",
-                "site": "https://dyttandroid-1372779881.cos.ap-guangzhou.myqcloud.com/app_dyttandroid.txt",
-                "version": "5.0.0.1",
-                "decrypt": "0"
-            }
-        },
-        {
             "key": "飞飞",
             "name": "飞飞丨APP",
             "type": 3,
@@ -184,22 +144,6 @@
             "filterable": 1,
             "ext": "https://qpcj.69mini.com/api.php/app/"
         },   
-        {
-            "key": "金牌",
-            "name": "金牌｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://qj4.catbb.xyz",
-                "dataKey": "eecbio48dsq13kkk",
-                "dataIv": "eecbio48dsq13kkk",
-                "search": "searchList4",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
 		{
          "key":"金牌2",
          "name":"金牌★视频",
@@ -211,21 +155,6 @@
          "filterable":1,
          "playerType":2
         },
-        {
-            "key": "蓝鹰",
-            "name": "蓝鹰｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt",
-                "dataKey": "ca94b06ca359d80e",
-                "dataIv": "ca94b06ca359d80e",
-                "init": "initV120",
-                "ua": "okhttp/3.10.0"
-            }
-        }, 
 		{
          "key":"芒果TV兼容版",
          "name":"芒果TV兼容版",
@@ -247,13 +176,6 @@
          "quickSearch":1,
          "filterable":1,
          "playerType":2
-        },
-		{
-            "key": "藤藤",
-            "name": "小腾4k",
-            "type": 3,
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
-            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png"
         },
         {
             "key": "王子",
@@ -317,17 +239,6 @@
          "playerType":2
         },
 		{
-         "key":"五大平台_终极修复版",
-         "name":"五大平台_终极修复版",
-         "type":3,
-         "api":"./py/五大平台_终极修复版.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
          "key":"红果修复",
          "name":"红果修复",
          "type":3,
@@ -354,17 +265,6 @@
          "name":"青麦影视",
          "type":3,
          "api":"./py/青麦视频3.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
-         "key":"麒麟影视py",
-         "name":"麒麟影视",
-         "type":3,
-         "api":"./py/麒麟影视py.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -429,17 +329,6 @@
          "name":"星影4",
          "type":3,
          "api":"./py/星影4.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
-         "key":"影探4K",
-         "name":"影探4K",
-         "type":3,
-         "api":"./py/影探4K.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -686,15 +575,6 @@
                "quickSearch": 1,
                "filterable": 1
         },
-	    {
-               "key": "uukan",
-               "name": "uukan",
-               "type": 3,
-               "api": "./py/uukan.py",
-               "searchable": 1,
-               "quickSearch": 1,
-               "filterable": 1
-        },
 		{
             "key": "VIP兔",
             "name": "VIP兔",
@@ -723,13 +603,6 @@
           "quickSearch": 1,
           "filterable": 1,
           "ext": "https://api.axablog.com/api.php/app/"
-        },
-	    {
-            "key": "浪酷",
-            "name": "浪酷",
-            "type": 3,
-            "api": "https://raw.giteeusercontent.com/sby1234/www/raw/master/vv/%E6%B5%AA%E9%85%B7.py",
-           "ext": "http://43.248.117.123:4680"
         },
 		{
             "key": "自建线路2",
@@ -815,17 +688,6 @@
          "name":"红果短剧",
          "type":3,
          "api":"./py/红果短剧.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
-         "key":"小蜜蜂",
-         "name":"小蜜蜂",
-         "type":3,
-         "api":"./py/小蜜蜂.js",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -958,44 +820,6 @@
            }
         },
         {
-            "key": "盛世影视",
-            "name": "盛世┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
-                "分类url": "https://rrys.lv/k/{cateId}--------{catePg}---/",
-                "线路标题": "盛世",
-                "简介": ⚠️勿信广告，谨防诈骗⚠️"
-			} 	
-         }, 
-        {
-            "key": "片库",
-            "name": "片库",
-            "type": 3,
-            "jar": "./jar/xyqxbpq.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "分类url": "https://www.pdy0.com/vt/{cateId}-{catePg}.html",
-                "分类": "电影$1#剧集$2#综艺$3#动漫$4"
-            }
-        },	
-		{
-            "key": "片库2",
-            "name": "片库2",
-            "type": 3,
-            "api": "./js/片库2.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "大海影视",
             "name": "大海｜影视",
             "type": 3,
@@ -1038,15 +862,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
-            "key": "电影人生",
-            "name": "电影人生",
-            "type": 3,
-            "api": "./py/电影人生.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
         {
             "key": "幕白影视.js",
             "name": "幕白 • 影视",
@@ -1070,15 +885,6 @@
                    "Netflix电影",
                   "Netflix自制剧"
                    ]
-        },
-		{
-            "key": "4K影视.js",
-            "name": "4K• 影视",
-            "type": 3,
-            "api": "./js/4KVM.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "电影港",
@@ -1113,27 +919,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "4k电影网",
-            "name": "4k电影网",
-            "type": 3,
-            "api": "https://meow.668yun.top/c/IpZlCFnh4vfv/4K电影网.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.sta-cafe.com"
-        }, 
-        {
-         "key":"4k电影网★",
-         "name":"4k电影网★",
-         "type":3,
-         "api":"./py/4K电影网.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
         },
 	    {
             "key": "共青春",
@@ -1258,16 +1043,6 @@
             },
             "changeable": 1
         },       
-        {
-            "key": "厂长",
-            "name": "厂长｜影视",
-            "type": 3,
-            "api": "csp_Czsapp",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.cz4k.com"  
-        },   
 		{
             "key": "fjszjm",
             "name": "网飞",
@@ -1333,16 +1108,6 @@
          "quickSearch":1,
          "filterable":1
         },
-		{
-         "key":"追影",
-         "name":"追影",
-         "type":3,
-         "api":"./py/追影.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1
-        },
         {
             "key": "跳验证枫叶",
             "name": "枫叶影视",
@@ -1355,17 +1120,6 @@
             "changeable": 1
         },  
 		{
-            "key": "厂长最终版",
-            "name": "在线厂长资源",
-            "type": 3,
-            "api": "./py/厂长最终版.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        }, 
-		{
          "key":"pomo修复版",
          "name":"pomo",
          "type":3,
@@ -1375,30 +1129,6 @@
          "quickSearch":1,
          "filterable":1,
          "playerType":2
-        },
-		{
-         "key":"juhaha_v3",
-         "name":"剧哈哈",
-         "type":3,
-         "api":"./py/juhaha_v3.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-        {
-            "key": "文才影视",
-            "name": "文采🔹蓝光",
-            "type": 3,
-            "api": "./py/8.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "ext": {
-                "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-            }
         },
         {
             "key": "王子4K",
@@ -1705,15 +1435,6 @@
           "api": "./ext/drpy2.min.js",
          "ext": "./ext/优酷无意云.js"     
       },
-       {
-         "key": "剧评",
-         "name": "陆城┃剧评",
-         "type": 3,
-         "api": "csp_Jpys",
-         "playerType": 1,
-         "jar": "https://raw.giteeusercontent.com/jngtao/xs/raw/master/橘皮.jar",
-      "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
-       },
        {
          "key": "New6v4k",
          "name": "New6V4k┃磁力",
