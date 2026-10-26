@@ -684,10 +684,10 @@
          "changeable" : 0
         },
 		{
-         "key":"红果短剧",
+         "key":"Hongguojs_vod",
          "name":"红果短剧",
          "type":3,
-         "api":"./py/红果短剧.py",
+         "api":"./py/Hongguojs_vod.js",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
