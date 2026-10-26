@@ -1215,6 +1215,17 @@
             "quickSearch": 1,
             "filterable": 1
         },
+		{
+         "key":"皮狗DJ站v8.8",
+         "name":"皮狗DJ站v8.8",
+         "type":3,
+         "api":"./py/皮狗DJ站v8.8.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "七星短剧",
             "name": "七星#短剧py",
