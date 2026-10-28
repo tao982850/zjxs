@@ -257,6 +257,17 @@
             "ext": "./js/Hongguojs_vod.js"
         },
 		{
+         "key":"Hongguojs_vod",
+         "name":"Hongguojs_vod",
+         "type":3,
+         "api":"./js/Hongguojs_vod.js",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"duoduo",
          "name":"多多影视",
          "type":3,
