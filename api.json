@@ -250,10 +250,21 @@
          "playerType":2
         },
 		{
-         "key":"Hongguojs_vod",
-         "name":"Hongguojs_vod",
+         "key":"影探4K(新)",
+         "name":"影探",
          "type":3,
-         "api":"./js/Hongguojs_vod.js",
+         "api":"./py/影探4K(新).py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"山楂4K",
+         "name":"山楂",
+         "type":3,
+         "api":"./py/山楂4K.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
