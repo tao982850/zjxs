@@ -316,10 +316,10 @@
          "playerType":2
         },
 		{
-         "key":"影探 4",
-         "name":"影探",
+         "key":"一起看",
+         "name":"一起看",
          "type":3,
-         "api":"./py/影探 4.py",
+         "api":"./py/一起看.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
