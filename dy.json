@@ -304,11 +304,33 @@
             "filterable": 1,
             "playerType": 2
         },
-			{
+		{
          "key":"IFN影院",
          "name":"IFN影院",
          "type":3,
          "api":"./py/IFN影院.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"影探 4",
+         "name":"影探",
+         "type":3,
+         "api":"./py/影探 4.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+			{
+         "key":"影视.正经.小鸡看看",
+         "name":"影视2",
+         "type":3,
+         "api":"./py/影视.正经.小鸡看看.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
