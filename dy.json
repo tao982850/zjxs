@@ -327,10 +327,10 @@
          "playerType":2
         },
 			{
-         "key":"影视.正经.小鸡看看",
+         "key":"影视·正经.小鸡看看",
          "name":"影视2",
          "type":3,
-         "api":"./py/影视.正经.小鸡看看.py",
+         "api":"./py/影视·正经·小鸡看看.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
