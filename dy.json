@@ -249,6 +249,13 @@
          "filterable":1,
          "playerType":2
         },
+        {
+            "key": "Hongguojs_vod",
+            "name": "红果",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/Hongguojs_vod.js"
+        },
 		{
          "key":"duoduo",
          "name":"多多影视",
