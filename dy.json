@@ -239,6 +239,39 @@
          "playerType":2
         },
 		{
+         "key":"大师兄(rex)",
+         "name":"大师兄",
+         "type":3,
+         "api":"./py/大师兄(rex).js",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"美人姬",
+         "name":"美人姬",
+         "type":3,
+         "api":"./py/美人姬.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"Hongguo_TuT",
+         "name":"Hongguo_TuT",
+         "type":3,
+         "api":"./py/Hongguo_TuT.js",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"红果修复",
          "name":"红果修复",
          "type":3,
