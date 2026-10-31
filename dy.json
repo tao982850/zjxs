@@ -239,23 +239,6 @@
          "playerType":2
         },
 		{
-            "key": "Hongguo_TuT.js",
-            "name": "Hongguo_TuT",
-            "type": 3,
-            "api": "./ext/Hongguo_TuT.js"
-        }, 
-		{
-         "key":"大师兄(rex)",
-         "name":"大师兄",
-         "type":3,
-         "api":"https://meow.668yun.top/c/u4NDOIfpLrC7/大师兄(rex).js",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
          "key":"红果修复",
          "name":"红果修复",
          "type":3,
