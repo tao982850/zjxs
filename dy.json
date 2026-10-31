@@ -239,6 +239,17 @@
          "playerType":2
         },
 		{
+         "key":" Hongguo_TuT",
+         "name":"Hongguo_TuT",
+         "type":3,
+         "api":"https://meow.668yun.top/api/s/d0SzXOPcB9XqNfDrbI5DLomvNc1Docno/Hongguo_TuT.js",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"红果修复",
          "name":"红果修复",
          "type":3,
