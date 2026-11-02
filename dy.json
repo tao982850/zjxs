@@ -52,10 +52,10 @@
          "playerType":2
         },
 	    {
-         "key":"V视影院",
-         "name":"V视影院4K",
+         "key":"云播4K",
+         "name":"云播4K",
          "type":3,
-         "api":"./py/V视影院.py",
+         "api":"./py/云播4K.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
