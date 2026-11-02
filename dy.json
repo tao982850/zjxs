@@ -440,10 +440,10 @@
             "filterable": 1
         },
 		{
-            "key": "橘汁",
-            "name": "橘汁",
+            "key": "橘汁视频4K",
+            "name": "橘汁视频4K",
             "type": 3,
-            "api": "./py/橘汁.py",
+            "api": "./py/橘汁视频4K.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
