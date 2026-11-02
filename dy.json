@@ -228,10 +228,10 @@
          "playerType":2
         },
 		{
-         "key":"努努影院",
-         "name":"努努影院",
+         "key":"4K河豚",
+         "name":"4K河豚",
          "type":3,
-         "api":"./py/努努影院.py",
+         "api":"./py/4K河豚.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
