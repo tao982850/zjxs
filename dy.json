@@ -52,10 +52,10 @@
          "playerType":2
         },
 	    {
-         "key":"文才",
-         "name":"文才",
+         "key":"V视影院",
+         "name":"V视影院4K",
          "type":3,
-         "api":"./py/文才.py",
+         "api":"./py/V视影院.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
