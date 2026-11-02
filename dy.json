@@ -228,6 +228,17 @@
          "playerType":2
         },
 		{
+         "key":"努努影院",
+         "name":"努努影院",
+         "type":3,
+         "api":"./py/努努影院.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"TVB云播",
          "name":"TVB",
          "type":3,
