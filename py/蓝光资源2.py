@@ -22,7 +22,7 @@ except ImportError:
         def setCache(self, key, value): return "fail"
         def delCache(self, key): return "fail"
 
-def format_remarks(brand="蝴蝶影视", meta=""):
+def format_remarks(brand="", meta=""):
     clean_meta = str(meta or "").strip()
     clean_meta = re.sub(r"[\r\n\t]+", " ", clean_meta).strip()
     if clean_meta:
@@ -37,9 +37,9 @@ class Spider(SpiderBase):
         self.apiUrl = "https://lgapi.xyz"
         self.parse_host = "https://vv00.xyz"
         self.demo_host = "https://yanshi.lgzyz.xyz"
-        self.tgGroup = "https://t.me/tvshare23"
-        self.brandActor = "🦋 TG群: @tvshare23"
-        self.brandDirector = "🦋 蝴蝶影视"
+        self.tgGroup = ""
+        self.brandActor = ""
+        self.brandDirector = ""
         self._ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         self.options = {}
         self.play_cache = {}
@@ -325,9 +325,9 @@ class Spider(SpiderBase):
 
         desc_raw = str(item.get("vod_content", "")).strip()
         if desc_raw and desc_raw != "暂无简介":
-            v_content = "🦋 蝴蝶影视专线直连 | %s | 官方交流群: @tvshare23" % desc_raw
+            v_content = "" % desc_raw
         else:
-            v_content = "🦋 蝴蝶影视专线加速播放 | 官方TG交流群：@tvshare23 | 4K高清原生极速画质"
+            v_content = ""
 
         raw_from = str(item.get("vod_play_from", "lgzym3u8")).strip()
         from_list = raw_from.split("$$$") if raw_from else ["lgzym3u8"]
