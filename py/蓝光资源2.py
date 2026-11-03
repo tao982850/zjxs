@@ -325,9 +325,9 @@ class Spider(SpiderBase):
 
         desc_raw = str(item.get("vod_content", "")).strip()
         if desc_raw and desc_raw != "暂无简介":
-            v_content = "🦋 蝴蝶影视专线直连 | %s | 官方交流群: @tvshare23" % desc_raw
+            v_content = "" % desc_raw
         else:
-            v_content = "🦋 蝴蝶影视专线加速播放 | 官方TG交流群：@tvshare23 | 4K高清原生极速画质"
+            v_content = "4K高清原生极速画质"
 
         raw_from = str(item.get("vod_play_from", "lgzym3u8")).strip()
         from_list = raw_from.split("$$$") if raw_from else ["lgzym3u8"]
@@ -335,7 +335,7 @@ class Spider(SpiderBase):
         brand_from_list = []
         for f in from_list:
             if "lgzym3u8" in f.lower():
-                brand_from_list.append("蝴蝶专线")
+                brand_from_list.append("")
             else:
                 brand_from_list.append(f)
 
