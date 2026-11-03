@@ -38,8 +38,8 @@ class Spider(SpiderBase):
         self.parse_host = "https://vv00.xyz"
         self.demo_host = "https://yanshi.lgzyz.xyz"
         self.tgGroup = "https://t.me/tvshare23"
-        self.brandActor = "🦋 TG群: @tvshare23"
-        self.brandDirector = "🦋 蝴蝶影视"
+        self.brandActor = ""
+        self.brandDirector = "蓝光资源"
         self._ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         self.options = {}
         self.play_cache = {}
