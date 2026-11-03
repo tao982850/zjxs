@@ -271,6 +271,17 @@
          "filterable":1,
          "playerType":2
         },
+			{
+         "key":"蓝光资源",
+         "name":"蓝光资源",
+         "type":3,
+         "api":"./py/蓝光资源(1).py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
 		{
          "key":"影探4K(新)",
          "name":"影探",
