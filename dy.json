@@ -272,10 +272,10 @@
          "playerType":2
         },
 			{
-         "key":"蓝光资源",
+         "key":"蓝光资源2",
          "name":"蓝光资源",
          "type":3,
-         "api":"./py/蓝光资源(1).py",
+         "api":"./py/蓝光资源2.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
