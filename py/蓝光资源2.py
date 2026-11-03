@@ -22,7 +22,7 @@ except ImportError:
         def setCache(self, key, value): return "fail"
         def delCache(self, key): return "fail"
 
-def format_remarks(brand="蝴蝶影视", meta=""):
+def format_remarks(brand="", meta=""):
     clean_meta = str(meta or "").strip()
     clean_meta = re.sub(r"[\r\n\t]+", " ", clean_meta).strip()
     if clean_meta:
