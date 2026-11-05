@@ -68,6 +68,17 @@
          "playerType":2
         },
 		{
+         "key":"影视·正经.小鸡看看",
+         "name":"4K影视2",
+         "type":3,
+         "api":"./py/影视·正经·小鸡看看.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
             "key": "咕噜",
             "name": "咕噜",
             "type": 3,
@@ -356,17 +367,6 @@
          "name":"一起看",
          "type":3,
          "api":"./py/一起看.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-			{
-         "key":"影视·正经.小鸡看看",
-         "name":"影视2",
-         "type":3,
-         "api":"./py/影视·正经·小鸡看看.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
