@@ -63,6 +63,16 @@
          "playerType":2
         },
 		{
+           "key": "奇迹资源",
+           "name": "影视 • 奇迹[直连]4k",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+           "api": "http://cmsyun2.qijiyun.vip/api.php/provide/vod/",
+           "group": "综合-采集站"
+        },
+		{
          "key":"裤佬全家桶",
          "name":"裤佬",
          "type":3,
