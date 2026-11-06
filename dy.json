@@ -216,6 +216,18 @@
                 "dataIv": "1234567887654321"
             }
         },
+		}, 
+		{
+         "key":"毒舌影视",
+         "name":"毒舌影视",
+         "type":3,
+         "api":"./py/毒舌影视.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
 		{
          "key":"油管",
          "name":"油管",
