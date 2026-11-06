@@ -415,6 +415,17 @@
          "filterable":1,
          "playerType":2
         },
+		{
+         "key":"埋堆堆",
+         "name":"埋堆堆2",
+         "type":3,
+         "api":"./py/埋堆堆.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "电影先生A",
             "name": "电影先生A",
