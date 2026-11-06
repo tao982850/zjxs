@@ -686,7 +686,18 @@
             "name": "可可影视",
             "type": 3,
             "api": "./ext/kkys.js"
-        },       
+        },    
+		{
+         "key":"毒舌影视",
+         "name":"毒舌影视",
+         "type":3,
+         "api":"./py/毒舌影视.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "豌豆",
             "name": "豌豆",
