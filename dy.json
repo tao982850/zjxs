@@ -371,10 +371,10 @@
          "playerType":2
         },
 		{
-         "key":"一起看",
-         "name":"一起看",
+         "key":"酷客影院",
+         "name":"酷客影院",
          "type":3,
-         "api":"./py/一起看.py",
+         "api":"./py/酷客影院.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
