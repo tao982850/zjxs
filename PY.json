@@ -187,10 +187,10 @@
          "playerType":2
         },
 		{
-         "key":"U酷影视",
-         "name":"U酷影视",
+         "key":"酷客影院",
+         "name":"酷客影视",
          "type":3,
-         "api":"./py/U酷影视.py",
+         "api":"./py/酷客影院.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
