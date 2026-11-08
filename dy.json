@@ -474,7 +474,7 @@
          "key":"埋堆堆_fongmi",
          "name":"埋堆堆_fongmi",
          "type":3,
-         "api":"./py/埋堆堆_fongmi.js",
+         "api":"./py/埋堆堆_fongmi.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
