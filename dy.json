@@ -51,7 +51,18 @@
          "filterable":1,
          "playerType":2
         },
-		{
+		
+		{{
+         "key":"HDRip",
+         "name":"HDRip",
+         "type":3,
+         "api":"./py/HDRip.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
          "key":"裤佬全家桶",
          "name":"裤佬",
          "type":3,
