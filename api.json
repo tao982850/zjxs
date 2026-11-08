@@ -2977,6 +2977,11 @@
   }
  },
  {
+      "name": "胖大海",
+      "type": 1,
+      "url": "https://api.suxun.site/api/gjth?url="
+},
+ {
   "name": "-云解析-",
   "type": 0,
   "url": "https://jx.yparse.com/index.php?url=",
