@@ -4853,17 +4853,6 @@
   }
  },
  {
-  "name": "DJ专线",
-  "url": "http://jx.voooe.cn/api/?key=aa70f97f8c109a3c6937ea27a98da6e0&url=",
-  "flag": [
-   "duanju"
-  ],
-  "header": {
-   "User-Agent": "Dalvik/2.1.0"
-  },
-  "type": 1
- },
- {
   "name": "FosiPlayer",
   "type": 0,
   "url": "https://play.fositv.com/?url="
@@ -5295,11 +5284,6 @@
   "name": "youku专线",
   "type": 1,
   "url": "http://zxy-th.jsszks.dpdns.org/th/youku.php/?url="
- },
- {
-  "name": "胖大海",
-  "type": 1,
-  "url": "https://api.suxun.site/api/gjth?url="
  },
  {
   "name": "超解析1",
