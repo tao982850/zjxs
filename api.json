@@ -250,15 +250,15 @@
          "playerType":2
         },
 		{
-         "key":"红果修复",
-         "name":"红果修复",
-         "type":3,
-         "api":"./py/红果修复.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
+            "key": "红果短剧",
+            "name": "红果短剧",
+            "type": 3,
+            "api": "./py/红果短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
         },
 		{
          "key":"红果短剧修复画质版",
@@ -271,7 +271,18 @@
          "filterable":1,
          "playerType":2
         },
-			{
+		{
+         "key":"红果短剧_修复版",
+         "name":"Hongguo短剧",
+         "type":3,
+         "api":"./py/红果短剧_修复版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"蓝光资源",
          "name":"蓝光资源",
          "type":3,
@@ -348,17 +359,6 @@
             "filterable": 1,
             "playerType": 2
         },  
-		{
-            "key": "速搜2K",
-            "name": "速搜2K",
-            "type": 3,
-            "api": "./py/速搜2K.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
 		{
          "key":"IFN影院",
          "name":"IFN影院",
@@ -529,6 +529,39 @@
                "quickSearch": 1,
                "filterable": 1
         },
+		{
+         "key":"瓜子APP",
+         "name":"瓜子py",
+         "type":3,
+         "api":"./py/瓜子APP.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },  
+		{
+         "key":"瓜子",
+         "name":"瓜子",
+         "type":3,
+         "api":"./py/瓜子.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },  
+	    {
+         "key":"瓜子影视修复",
+         "name":"瓜子影视修复",
+         "type":3,
+         "api":"./py/瓜子影视修复.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },  
 	    {
             "key": "看客",
             "name": "看客",
@@ -736,26 +769,6 @@
          "name":"5v55",
          "type":3,
          "api":"./py/5v55.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
-         "key" : "csp_HongGuo",
-         "name" : "🍎果子┃精选短剧",
-         "type" : 3,
-         "api" : "https://s3plus.meituan.net/opapisdk/op_ticket_1_5673241091_1788770930556_IMPGdz5q.py",
-         "quickSearch" : 1,
-         "searchable" : 1,
-         "changeable" : 0
-        },
-		{
-         "key":"红果短剧_修复版",
-         "name":"Hongguo短剧",
-         "type":3,
-         "api":"./py/红果短剧_修复版.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -1023,39 +1036,6 @@
             "changeable": 1
         }, 
         {
-         "key":"瓜子APP",
-         "name":"瓜子py",
-         "type":3,
-         "api":"./py/瓜子APP.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },  
-		{
-         "key":"瓜子",
-         "name":"瓜子",
-         "type":3,
-         "api":"./py/瓜子.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },  
-	    {
-         "key":"瓜子影视修复",
-         "name":"瓜子影视修复",
-         "type":3,
-         "api":"./py/瓜子影视修复.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },  
-        {
          "key":"皮皮虾",
          "name":"皮皮虾",
          "type":3,
@@ -1143,40 +1123,8 @@
                 "ratio": 0.75
             },
             "changeable": 1
-        },          
-        {
-            "key": "猎手影视",
-            "name": "猎手影视",
-            "type": 3,
-            "api": "./py/猎手影视.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        }, 
-        {
-            "key": "枫叶影院",
-            "name": "枫叶影院",
-            "type": 3,
-            "api": "./py/枫叶影院.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },   
-        {
-         "key":"剧迷",
-         "name":"剧迷",
-         "type":3,
-         "api":"./py/剧迷.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1
         },
-        {
+		 {
             "key": "跳验证枫叶",
             "name": "枫叶影视",
             "type": 3,
@@ -1187,6 +1135,28 @@
             },
             "changeable": 1
         },  
+        {
+            "key": "枫叶影院",
+            "name": "枫叶影院",
+            "type": 3,
+            "api": "./py/枫叶影院.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+		 {
+            "key": "猎手影视",
+            "name": "猎手影视",
+            "type": 3,
+            "api": "./py/猎手影视.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
 		{
          "key":"pomo修复版",
          "name":"pomo",
