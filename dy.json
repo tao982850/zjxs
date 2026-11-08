@@ -51,17 +51,6 @@
          "filterable":1,
          "playerType":2
         },
-	    {
-         "key":"云播4K",
-         "name":"云播4K",
-         "type":3,
-         "api":"./py/云播4K.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
 		{
          "key":"裤佬全家桶",
          "name":"裤佬",
@@ -232,6 +221,28 @@
          "name":"4K河豚",
          "type":3,
          "api":"./py/4K河豚.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
+         "key":"云播4K",
+         "name":"云播4K",
+         "type":3,
+         "api":"./py/云播4K.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		    {
+         "key":"4KVM",
+         "name":"4KVM",
+         "type":3,
+         "api":"./py/4KVM.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -458,6 +469,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{
+         "key":"埋堆堆_dr3",
+         "name":"埋堆堆_dr3",
+         "type":3,
+         "api":"./py/埋堆堆_dr3.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
         },
 	    {
          "key":"mddcloud",
