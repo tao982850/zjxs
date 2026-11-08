@@ -471,10 +471,10 @@
             "filterable": 1
         },
 		{
-         "key":"埋堆堆_dr3",
-         "name":"埋堆堆_dr3",
+         "key":"埋堆堆_fongmi",
+         "name":"埋堆堆_fongmi",
          "type":3,
-         "api":"./py/埋堆堆_dr3.py",
+         "api":"./py/埋堆堆_fongmi.js",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
