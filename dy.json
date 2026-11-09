@@ -29,6 +29,17 @@
             "type": 3,
             "api": "csp_LocalFile"
         }, 
+			{
+         "key":"TMDB多线影视",
+         "name":"多线视频",
+         "type":3,
+         "api":"./py/TMDB多线影视.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
 		{
          "key":"央视频",
          "name":"央视频",
