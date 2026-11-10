@@ -261,6 +261,17 @@
          "playerType":2
         },
 		{
+         "key":"奇迹",
+         "name":"奇迹视频",
+         "type":3,
+         "api":"./py/奇迹.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"TVB云播",
          "name":"TVB",
          "type":3,
