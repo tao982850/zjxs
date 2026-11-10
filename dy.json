@@ -283,6 +283,17 @@
          "playerType":2
         },
 		{
+         "key":"厂长最终版",
+         "name":"厂长最终版",
+         "type":3,
+         "api":"./py/厂长最终版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
             "key": "红果短剧",
             "name": "唐三红果短剧",
             "type": 3,
