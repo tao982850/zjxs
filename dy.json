@@ -29,17 +29,6 @@
             "type": 3,
             "api": "csp_LocalFile"
         }, 
-			{
-         "key":"TMDB多线影视",
-         "name":"多线视频",
-         "type":3,
-         "api":"./py/TMDB多线影视.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
 		{
          "key":"央视频",
          "name":"央视频",
@@ -166,29 +155,7 @@
          "filterable":1,
          "playerType":2
         },
-		{
-         "key":"芒果TV兼容版",
-         "name":"芒果TV兼容版",
-         "type":3,
-         "api":"./py/芒果TV兼容版.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-	    {
-         "key":"腾讯视频",
-         "name":"腾讯视频",
-         "type":3,
-         "api":"./py/腾讯视频.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-        {
+		 {
             "key": "王子",
             "name": "王子｜APP",
             "type": 3,
@@ -226,6 +193,39 @@
                 "dataKey": "1234567887654321",
                 "dataIv": "1234567887654321"
             }
+        },
+		{
+            "key": "独播库",
+            "name": "独播库",
+            "type": 3,
+            "api": "./py/独播库.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        }, 
+		{
+         "key":"芒果TV兼容版",
+         "name":"芒果TV兼容版",
+         "type":3,
+         "api":"./py/芒果TV兼容版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+	    {
+         "key":"腾讯视频",
+         "name":"腾讯视频",
+         "type":3,
+         "api":"./py/腾讯视频.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
         },
 		{
          "key":"油管",
@@ -292,6 +292,15 @@
          "quickSearch":1,
          "filterable":1,
          "playerType":2
+        },
+		{
+            "key": "厂长影视",
+            "name": "在线厂长影视",
+            "type": 3,
+            "api": "./py/厂长影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
 		{
             "key": "红果短剧",
@@ -371,10 +380,10 @@
          "playerType":2
         },
 		{
-         "key":"duoduo",
-         "name":"多多影视",
+         "key":"影视·正经.小鸡看看",
+         "name":"4k影视2",
          "type":3,
-         "api":"./py/duoduo.py",
+         "api":"./py/影视·正经·小鸡看看.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -430,17 +439,6 @@
          "name":"酷客影院",
          "type":3,
          "api":"./py/酷客影院.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-			{
-         "key":"影视·正经.小鸡看看",
-         "name":"4k影视2",
-         "type":3,
-         "api":"./py/影视·正经·小鸡看看.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -536,15 +534,6 @@
          "filterable":1,
          "playerType":2
         },
-        {
-            "key": "电影先生A",
-            "name": "电影先生A",
-            "type": 3,
-            "api": "./py/电影先生A.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
 	    {
             "key": "bubu",
             "name": "布布",
@@ -553,6 +542,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		{
+         "key":"duoduo",
+         "name":"多多影视",
+         "type":3,
+         "api":"./py/duoduo.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
         },
 		{
             "key": "多多",
@@ -604,7 +604,7 @@
          "filterable":1,
          "playerType":2
         },
-		    {
+	    {
          "key":"全球更新",
          "name":"全球更新",
          "type":3,
@@ -654,19 +654,19 @@
             "filterable": 1
         },
 		{
-            "key": "netflixgc",
-            "name": "netflixgc",
+            "key": "电影先生A",
+            "name": "电影先生A",
             "type": 3,
-            "api": "./py/netflixgc.py",
+            "api": "./py/电影先生A.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
 		{
-            "key": "厂长影视",
-            "name": "在线厂长影视",
+            "key": "netflixgc",
+            "name": "netflixgc",
             "type": 3,
-            "api": "./py/厂长影视.py",
+            "api": "./py/netflixgc.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -944,18 +944,18 @@
                 "分类url": "https://www.nmzjs.com/type/{cateId}/{catePg}.html",
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$36"
             }
-        },  
-        {
-            "key": "独播库",
-            "name": "独播库",
-            "type": 3,
-            "api": "./py/独播库.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        }, 
+        },
+		{
+         "key":"TMDB多线影视",
+         "name":"多线视频",
+         "type":3,
+         "api":"./py/TMDB多线影视.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
 		{
             "key": "八戒",
             "name": "八戒",
