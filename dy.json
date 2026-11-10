@@ -260,7 +260,18 @@
          "filterable":1,
          "playerType":2
         },
-		    {
+		{
+            "key": "验证枫叶",
+            "name": "4k枫叶影视",
+            "type": 3,
+            "api": "./py/验证枫叶.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },  
+		 {
          "key":"4KVM",
          "name":"4KVM",
          "type":3,
