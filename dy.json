@@ -271,6 +271,17 @@
             },
             "changeable": 1
         },  
+		  {
+            "key": "枫叶影院合并版",
+            "name": "枫叶合并",
+            "type": 3,
+            "api": "./py/枫叶影院合并版.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },  
 		 {
          "key":"4KVM",
          "name":"4KVM",
