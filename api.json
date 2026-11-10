@@ -272,6 +272,39 @@
          "playerType":2
         },
 		{
+            "key": "验证枫叶",
+            "name": "4k枫叶影视",
+            "type": 3,
+            "api": "./py/验证枫叶.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },  
+		{
+            "key": "跳验证枫叶",
+            "name": "枫叶影视",
+            "type": 3,
+            "api": "./py/跳验证枫叶.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },  
+		  {
+            "key": "枫叶影院合并版",
+            "name": "枫叶合并",
+            "type": 3,
+            "api": "./py/枫叶影院合并版.py",
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "changeable": 1
+        },  
+		{
          "key":"TVB云播",
          "name":"TVB",
          "type":3,
@@ -1156,29 +1189,7 @@
                 "ratio": 0.75
             },
             "changeable": 1
-        },          
-        {
-            "key": "枫叶♡影院",
-            "name": "枫叶♡影院",
-            "type": 3,
-            "api": "./api/枫叶影院.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },            
-        {
-            "key": "4k枫叶",
-            "name": "4k枫叶",
-            "type": 3,
-            "api": "./py/4k枫叶.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },          
+        },                 
         {
             "key": "猎手影视",
             "name": "猎手影视",
@@ -1191,17 +1202,6 @@
             "changeable": 1
         }, 
         {
-            "key": "枫叶影院",
-            "name": "枫叶影院",
-            "type": 3,
-            "api": "./py/枫叶影院.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },   
-        {
          "key":"剧迷",
          "name":"剧迷",
          "type":3,
@@ -1211,17 +1211,6 @@
          "quickSearch":1,
          "filterable":1
         },
-        {
-            "key": "跳验证枫叶",
-            "name": "枫叶影视",
-            "type": 3,
-            "api": "./py/跳验证枫叶.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },  
 		{
          "key":"pomo修复版",
          "name":"pomo",
