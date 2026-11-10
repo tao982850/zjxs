@@ -3030,6 +3030,30 @@
    }
   }
  },
+ {
+  "name": "xy4k",
+  "type": 1,
+  "url": "https://183933.xyz/xiaye.php?url=",
+  "ext": {
+    "flag": [
+      "qq",
+      "腾讯",
+      "qiyi",
+      "iqiyi",
+      "爱奇艺",
+      "奇艺",
+      "youku",
+      "优酷",
+      "YouKu",
+      "mgtv",
+      "芒果",
+      "芒果TV"
+    ],
+    "header": {
+      "User-Agent": "Mozilla/5.0"
+    }
+  }
+},
 {
       "name": "胖大海",
       "type": 1,
@@ -3583,11 +3607,6 @@
     "乐视视频"
    ]
   }
- },
- {
-  "name": "xy4k",
-  "type": 1,
-  "url": "https://183933.xyz/xiaye.php?url="
  },
  {
   "name": "🐱0号",
