@@ -347,17 +347,6 @@
             "playerType": 2
         },
 		{
-            "key": "红果短剧2",
-            "name": "潇洒红果短剧",
-            "type": 3,
-            "api": "./py/红果短剧2.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-		{
          "key":"红果短剧修复画质版",
          "name":"红果短剧修复",
          "type":3,
@@ -369,10 +358,21 @@
          "playerType":2
         },
 		{
-         "key":"红果短剧_修复版",
-         "name":"Hongguo短剧",
+            "key": "影探聚合",
+            "name": "影探聚合",
+            "type": 3,
+            "api": "./py/影探聚合.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+		{
+         "key":"影探片帝河豚小鸡超级聚合",
+         "name":"影探片帝河豚小鸡超级聚合",
          "type":3,
-         "api":"./py/红果短剧_修复版.py",
+         "api":"./py/影探片帝河豚小鸡超级聚合.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
