@@ -305,10 +305,10 @@
             "changeable": 1
         },  
 		{
-            "key": "4K枫叶影院合并版2",
-            "name": "4K枫叶影院合并版2.py",
+            "key": "4K片帝",
+            "name": "4K片帝.py",
             "type": 3,
-            "api": "./py/4K枫叶影院合并版2.py",
+            "api": "./py/4K片帝.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
