@@ -305,10 +305,10 @@
             "changeable": 1
         },  
 		{
-            "key": "跳验证枫叶",
-            "name": "枫叶影视",
+            "key": "4K枫叶影院合并版2",
+            "name": "4K枫叶影院合并版2.py",
             "type": 3,
-            "api": "./py/跳验证枫叶.py",
+            "api": "./py/4K枫叶影院合并版2.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
@@ -317,7 +317,7 @@
         },  
 		  {
             "key": "枫叶影院合并版",
-            "name": "枫叶合并",
+            "name": "自建枫叶合并",
             "type": 3,
             "api": "./py/枫叶影院合并版.py",
             "style": {
@@ -356,17 +356,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-		{
-            "key": "红果短剧",
-            "name": "唐三红果短剧",
-            "type": 3,
-            "api": "./py/红果短剧.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
         },
 		{
          "key":"红果短剧_apk修正版",
