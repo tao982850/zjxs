@@ -358,6 +358,17 @@
             "filterable": 1
         },
 		{
+         "key":"红果短剧_合并版",
+         "name":"红果短剧合并版",
+         "type":3,
+         "api":"./py/红果短剧_合并版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"红果短剧_apk修正版",
          "name":"红果短剧修复",
          "type":3,
