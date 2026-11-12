@@ -369,10 +369,10 @@
             "playerType": 2
         },
 		{
-         "key":"红果短剧修复画质版",
+         "key":"红果短剧_apk修正版",
          "name":"红果短剧修复",
          "type":3,
-         "api":"./py/红果短剧修复画质版.py",
+         "api":"./py/红果短剧_apk修正版.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
