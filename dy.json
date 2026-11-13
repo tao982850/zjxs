@@ -261,6 +261,17 @@
          "playerType":2
         },
 		{
+         "key":"影探4k片帝河豚小鸡超级聚合",
+         "name":"备份影探片帝河豚小鸡超级聚合",
+         "type":3,
+         "api":"https://raw.giteeusercontent.com/jngtao/4kpy/raw/master/py/影探片帝河豚小鸡超级聚合.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+		 },
+		{
          "key":"4K河豚",
          "name":"4K河豚",
          "type":3,
