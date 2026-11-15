@@ -294,10 +294,10 @@
          "playerType":2
         },
 		{
-            "key": "验证枫叶",
+            "key": "跳验证枫叶",
             "name": "4k枫叶影视",
             "type": 3,
-            "api": "./py/验证枫叶.py",
+            "api": "./py/跳验证枫叶.py",
             "style": {
                 "type": "rect",
                 "ratio": 0.75
