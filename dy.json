@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar",
+    "spider": "./jar/Tspider.jar;md5;11494c124cc98349eaacf3f2eaf7aba6",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
