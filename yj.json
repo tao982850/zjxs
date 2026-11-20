@@ -241,6 +241,17 @@
          "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0406/21/5b2f258907bc956ee3538c9f5cdf4b83.jpg;md5;5af5edf697f25b99eb189fb800e1d098"
        },
 		{
+         "key":"剧综",
+         "name":"剧综",
+         "type":3,
+         "api":"./py/juzong.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"pomo-修复版",
          "name":"pomo|4k",
          "type":3,
