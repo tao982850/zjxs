@@ -241,10 +241,10 @@
          "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0406/21/5b2f258907bc956ee3538c9f5cdf4b83.jpg;md5;5af5edf697f25b99eb189fb800e1d098"
        }, 
 		{
-         "key":"pomo修复版",
+         "key":"pomo-修复版",
          "name":"pomo|4k",
          "type":3,
-         "api":"./py/pomo修复版.py",
+         "api":"./py/pomo-修复版.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
