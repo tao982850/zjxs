@@ -239,7 +239,17 @@
          "filterable": 1,
          "ext": "https://www.xb6v.com",
          "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0406/21/5b2f258907bc956ee3538c9f5cdf4b83.jpg;md5;5af5edf697f25b99eb189fb800e1d098"
-       }, 
+       },
+	   {
+            "key": "电影港-修复版",
+            "name": "电影港**磁力",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/电影港-修复版.json"
+      },
 		{
          "key":"pomo-修复版",
          "name":"pomo|4k",
