@@ -207,17 +207,6 @@
             },
             "changeable": 1
         }, 
-		{
-         "key":"芒果TV兼容版",
-         "name":"芒果TV兼容版",
-         "type":3,
-         "api":"./py/芒果TV兼容版.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
 	    {
          "key":"腾讯视频",
          "name":"腾讯视频",
@@ -234,6 +223,28 @@
          "name":"油管",
          "type":3,
          "api":"./py/油管.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		 {
+         "key": "New6v4k",
+         "name": "New6V4k┃磁力",
+         "type": 3,
+         "api": "csp_New6v",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "https://www.xb6v.com",
+         "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0406/21/5b2f258907bc956ee3538c9f5cdf4b83.jpg;md5;5af5edf697f25b99eb189fb800e1d098"
+       }, 
+		{
+         "key":"pomo修复版",
+         "name":"pomo|4k",
+         "type":3,
+         "api":"./py/pomo修复版.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -448,17 +459,6 @@
          "playerType":2
         },
 		{
-         "key":"冠建",
-         "name":"冠建影视",
-         "type":3,
-         "api":"./py/冠建.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
             "key": "iysdq",
             "name": "影视大全",
             "type": 3,
@@ -470,41 +470,10 @@
             "playerType": 2
         },  
 		{
-         "key":"IFN影院",
-         "name":"IFN影院",
-         "type":3,
-         "api":"./py/IFN影院.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
          "key":"酷客影院",
          "name":"酷客影院",
          "type":3,
          "api":"./py/酷客影院.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
-            "key": "哈趣影视",
-            "name": "哈趣影视",
-            "type": 3,
-            "api": "./py/哈趣影视.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-		{
-         "key":"星影4",
-         "name":"星影4",
-         "type":3,
-         "api":"./py/星影4.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
@@ -558,6 +527,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
+	    {
+            "key": "网飞-修复版",
+            "name": "网飞-修复版影视",
+            "type": 3,
+            "api": "./py/网飞-修复版.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },     
 	    {
          "key":"mddcloud",
          "name":"埋堆堆",
@@ -709,15 +687,6 @@
             "filterable": 1
         },
 		{
-            "key": "netflixgc",
-            "name": "netflixgc",
-            "type": 3,
-            "api": "./py/netflixgc.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-			{
             "key": "抖音精选",
             "name": "抖音精选",
             "type": 3,
@@ -735,29 +704,11 @@
                "quickSearch": 1,
                "filterable": 1
         },
-	    {
-               "key": "yt",
-               "name": "yt",
-               "type": 3,
-               "api": "./py/yt.py",
-               "searchable": 1,
-               "quickSearch": 1,
-               "filterable": 1
-        },
 		{
             "key": "VIP兔",
             "name": "VIP兔",
             "type": 3,
             "api": "./py/VIP兔.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-		{
-            "key": "网飞猫修复版",
-            "name": "网飞猫",
-            "type": 3,
-            "api": "./py/网飞猫修复版.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -793,15 +744,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		{
-            "key": "影视4K",
-            "name": "影视4K",
-            "type": 3,
-            "api": "./py/影视4K.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
         {
             "key": "袋鼠影视",
             "name": "袋鼠影视",
@@ -833,17 +775,6 @@
             }
         },
 		{
-         "key":"5v55",
-         "name":"5v55",
-         "type":3,
-         "api":"./py/5v55.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
          "key":"极速追剧",
          "name":"极速追剧",
          "type":3,
@@ -853,26 +784,6 @@
          "quickSearch":1,
          "filterable":1,
          "playerType":2
-        },
-		{
-             "key": "奇妙",
-             "name": "奇妙资源",
-             "type": 1,
-             "api": "https://cj.jusj.top/api.php/provide/vod/",
-             "searchable": 1,
-             "changeable": 1,
-             "playerType": 2,
-             "categories": [
-                 "电影",
-                 "剧集",
-                 "综艺",
-                 "动漫",
-                 "短剧",
-                 "少儿",
-                 "纪录片"
-                  ],
-                "quickSearch": 1,
-                "filterable": 1
         },
         {
             "key": "可可影视",
@@ -992,17 +903,6 @@
             }
         },
 		{
-         "key":"TMDB多线影视",
-         "name":"多线视频",
-         "type":3,
-         "api":"./py/TMDB多线影视.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
-		{
             "key": "八戒",
             "name": "八戒",
             "type": 3,
@@ -1034,13 +934,7 @@
                    "Netflix电影",
                   "Netflix自制剧"
                    ]
-        },
-        {
-            "key": "电影港",
-            "name": "电影港",
-            "type": 3,
-            "api": "./ext/电影港.js"
-        },        
+        },      
         {
             "key": "大马猴影视",
             "name": "大马猴影视",
@@ -1097,13 +991,6 @@
                "filterable": 1
         },
         {
-            "key": "映像星球",
-            "name": "映像星球",
-            "type": 3,
-            "api": "./py/映像星球.py",
-            "changeable": 1
-        }, 
-        {
          "key":"瓜子APP",
          "name":"瓜子py",
          "type":3,
@@ -1142,15 +1029,6 @@
          "type":3,
          "api":"./py/皮皮虾.py",
          "ext": "http://43.248.117.123:4680"
-        },
-        {
-            "key": "77影视",
-            "name": "77影视",
-            "type": 3,
-            "api": "./py/77影视.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
 	    {
             "key": "808影视",
@@ -1191,18 +1069,7 @@
                 "ratio": 0.75
             },
             "changeable": 1
-        },       
-		{
-            "key": "fjszjm",
-            "name": "网飞",
-            "type": 3,
-            "api": "./py/fjszjm.py",
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "changeable": 1
-        },               
+        },                 
         {
             "key": "猎手影视",
             "name": "猎手影视",
@@ -1223,17 +1090,6 @@
          "changeable":1,
          "quickSearch":1,
          "filterable":1
-        },
-		{
-         "key":"pomo修复版",
-         "name":"pomo",
-         "type":3,
-         "api":"./py/pomo修复版.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
         },
         {
             "key": "王子4K",
@@ -1376,30 +1232,6 @@
             "playerType": 2
         },  
         {
-            "name": "🎬嗷呜｜短剧",
-            "key": "DjHggg",
-            "type": 3,
-            "api": "csp_HgggAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "short_play",
-            "jar": "./jar/11.png"
-        },
-        {
-            "name": "🎬嗷呜｜漫剧",
-            "key": "MjHggg",
-            "type": 3,
-            "api": "csp_HgggAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "comic_series",
-            "jar": "./jar/11.png"
-        },
-        {
             "name": "🎬喵喵｜短剧",
             "key": "喵喵｜短剧",
             "type": 3,
@@ -1489,17 +1321,6 @@
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
       },
       {
-            "name": "Pan3┃4K",
-            "key": "YIys",
-            "type": 3,
-            "api": "csp_YIysAmns",
-            "jar": "./jar/嗷呜.jar",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-      },
-      {
             "key": "哔哩幕",
             "name": "哔哩｜4K",
             "type": 3,
@@ -1551,17 +1372,6 @@
           "api": "./ext/drpy2.min.js",
          "ext": "./ext/优酷无意云.js"     
       },
-       {
-         "key": "New6v4k",
-         "name": "New6V4k┃磁力",
-         "type": 3,
-         "api": "csp_New6v",
-         "searchable": 1,
-         "quickSearch": 1,
-         "filterable": 1,
-         "ext": "https://www.xb6v.com",
-         "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0406/21/5b2f258907bc956ee3538c9f5cdf4b83.jpg;md5;5af5edf697f25b99eb189fb800e1d098"
-       }, 
        {
           "key": "feifan",
           "name": "非凡资源",
