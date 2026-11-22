@@ -43,6 +43,17 @@
          "playerType":2
         },
 		{
+         "key":"央视频-修复版",
+         "name":"备份央视频",
+         "type":3,
+         "api":"./py/央视频-修复版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"广东荔枝电视台",
          "name":"广东荔枝电视台",
          "type":3,
