@@ -75,6 +75,17 @@
          "filterable":1,
          "playerType":2
         },
+		{
+         "key":"裤佬全家桶修复版",
+         "name":"备份裤佬",
+         "type":3,
+         "api":"./py/裤佬全家桶修复版.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
         {
             "key": "热播影视",
             "name": "热播｜APP",
