@@ -16,7 +16,7 @@
             "key": "配置中心",
             "name": "配置｜中心",
             "type": 3,
-            "api": "csp_Config",
+            "api": "https://raw.giteeusercontent.com/jngtao/4kpy/raw/master/py/config.json?signature=IS1XLBu3JUshGA3Nf9VvWFoUgYSpMoiYrVNQcy41b-TPEHNXEbHz5-772U12knu8RYonz8GnZdBCz3MQOMRD2_i6VAPGNDFIs8ZNe-cjeEFjOKM_zMJHBflNIriXRq03Qm8gbq5hjr26EPsg7uEw2bLsw_9oiy2qC-w6HcYA0GDGYytYz8b-xQTKi6EFXfKN4j4-Eq6DGI7mBIaLFuwyzfej_e_nJYITOpmrXw-UT-t0Ep7Q9a3TdnVsbfD4vV8Y69PrBztPl1llj4Cz5Rzf7KsbhYDau8q_NNcQixkJV9dMrIfALvEs3aThukUl",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
