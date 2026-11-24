@@ -307,6 +307,17 @@
          "playerType":2
 		 },
 		{
+         "key":"4k导航",
+         "name":"4k导航",
+         "type":3,
+         "api":"./py/4k导航.py",
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":1,
+         "filterable":1,
+         "playerType":2
+        },
+		{
          "key":"4K河豚",
          "name":"4K河豚",
          "type":3,
