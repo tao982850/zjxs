@@ -415,10 +415,10 @@
             "filterable": 1
         },
 		{
-         "key":"红果短剧_合并版2",
-         "name":"红果短剧合并版2",
+         "key":"红果短剧_合并版3",
+         "name":"红果短剧合并版3",
          "type":3,
-         "api":"./py/红果短剧_合并版2.py",
+         "api":"./py/红果短剧_合并版3.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
