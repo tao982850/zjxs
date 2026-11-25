@@ -2752,6 +2752,59 @@
   "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
  ],
  "parses": [
+	 {
+      "name": "胖大海",
+      "type": 1,
+      "url": "https://api.suxun.site/api/gjth?url="
+  },
+  {
+  "name": "🌲林中小屋🏡解析线路③",
+  "type": 1,
+  "url": "https://jxjson.icu/neibu.php?url=",
+  "ext": {
+   "flag": [
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "qiyi",
+    "爱奇艺",
+    "爱 奇 艺",
+    "奇艺",
+    "youku",
+    "优酷",
+    "优 酷",
+    "mgtv",
+    "芒果",
+    "芒 果T V",
+    "imgo",
+    "letv",
+    "乐视",
+    "乐 视",
+    "咪 咕 视 频",
+    "pptv",
+    "PPTV",
+    "C N T V",
+    "sohu",
+    "bilibili",
+    "哔哩哔哩",
+    "哔 哩 哔 哩",
+    "哔哩"
+   ],
+   "header": {
+    "User-Agent": "okhttp/4.9.1"
+   }
+  }
+ },
+ {
+  "name": "🌲林中小屋🏡解析线路④",
+  "type": 0,
+  "url": "https://jx.m3u8.tv/jx/jx.php?url="
+ },
+ {
+  "name": "🌲林中小屋🏡解析线路⑤",
+  "type": 0,
+  "url": "https://www.8090g.cn/jiexi/?url="
+ },
  {
     "name": "虾米嗅探",
     "type": 0,
