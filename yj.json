@@ -259,11 +259,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-           "ext": {
-            "site": ["https://woggpan.888484.xyz"],
-            "cookie": "",
-            "parse": ""
-             }
+			"ext": {
+                     "site": [
+                                "https://woggpan.888484.xyz",
+                                "https://wogg.xxooo.cf",
+                                "http://woggpan.xxooo.cf",
+                                "https://wogg.333232.xyz"
+                               ],
+                        "cookie": "",
+                        "parse": ""
+                     }
         },
 		{
          "key":"剧综",
