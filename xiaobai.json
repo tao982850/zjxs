@@ -6,7 +6,7 @@
  "sites": [
   {
    "key": "豆瓣",
-   "name": "🐮小白免费分享 • Q群595262500🐮",
+   "name": "豆瓣",
    "type": 3,
    "api": "csp_Douban",
    "searchable": 0
