@@ -273,10 +273,10 @@
          "playerType":2
         },
 		{
-         "key":"4k导航",
-         "name":"4k导航",
+         "key":"4k导航2",
+         "name":"4k导航2",
          "type":3,
-         "api":"./py/4k导航.py",
+         "api":"./py/4k导航2.py",
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
