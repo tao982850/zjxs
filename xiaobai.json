@@ -243,17 +243,6 @@
          "playerType":2
         },
 		{
-         "key":"备份影探4k片帝河豚小鸡超级聚合",
-         "name":"备份影探片帝河豚小鸡超级聚合",
-         "type":3,
-         "api":"https://raw.giteeusercontent.com/jngtao/4kpy/raw/master/py/影探片帝河豚小鸡超级聚合.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-		 },
-		{
          "key":"4k导航",
          "name":"4k导航",
          "type":3,
@@ -319,17 +308,6 @@
             },
             "changeable": 1
         },  
-		 {
-         "key":"4KVM",
-         "name":"4KVM",
-         "type":3,
-         "api":"./py/4KVM.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
 		{
          "key":"TVB云播",
          "name":"TVB",
@@ -527,17 +505,6 @@
          "filterable":1,
          "playerType":2
         },
-		{
-         "key":"埋堆堆",
-         "name":"埋堆堆2",
-         "type":3,
-         "api":"./py/埋堆堆.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
-        },
 	    {
             "key": "bubu",
             "name": "布布",
@@ -596,17 +563,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-		{
-         "key":"抖音云",
-         "name":"抖音云",
-         "type":3,
-         "api":"./py/抖音云.py",
-         "searchable":1,
-         "changeable":1,
-         "quickSearch":1,
-         "filterable":1,
-         "playerType":2
         },
 	    {
          "key":"全球更新",
@@ -1105,34 +1061,6 @@
             "playerType": 2
         },  
         {
-            "key": "腾讯视频",
-            "name": "腾讯｜官方",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/腾讯.js"
-        },
-        {
-            "key": "爱奇艺视频",
-            "name": "爱奇艺｜官方",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/爱奇艺.png"
-        },
-        {
-            "key": "优酷视频",
-            "name": "优酷｜官方",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/优酷.png"
-        },
-        {
-            "key": "芒果视频",
-            "name": "芒果｜官方",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/芒果.png"
-        },
-        {
             "key": "哔哩哔哩",
             "name": "B站｜官方",
             "type": 3,
@@ -1173,67 +1101,6 @@
                 "分类": "电影$dianying#剧集$juji#动漫$dongman#综艺$zongyi"
             }
         },   
-        {
-            "key": "檬",
-            "name": "檬|影视",
-            "type": 3,
-            "api": "csp_Nmvod",
-            "playerType": 2,
-            "jar": "./jar/柠檬.jar",
-            "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-      },
-      {
-            "key": "哔哩幕",
-            "name": "哔哩｜4K",
-            "type": 3,
-            "api": "csp_Bilimd",
-            "jar": "./jar/臻彩.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "cookie": "SESSDATA=8f3ff69f%2C1794310143%2C53c01%2A52CjBX4vniMP8UbH-FHHxtImWyVMCf_NkAmIFpLXuK3B9TH1uSPOG3A5ST5nKXpP5b06gSVmx2Q2FWY0xPY19yaGxqOUNoRnZuLVhselJhVXU5UWlQb093RnprU2xpLVk5bmpwWjZ6bEhLZWt2RTIwbVpHaFJsYXJVeGtGRnFMcTd1OHRoZ24zN2ZRIIEC; bili_jct=27dfcc874d1a3c0fe39b9651ca436394; DedeUserID=3546629682497943; DedeUserID__ckMd5=b11f007e7707c2a6; sid=pey664gw; b_lsid=922FAEA2_19E263F56EF;"
-            },
-            "timeout": 10
-      },   
-      {
-          "key": "腾讯视频无意云",
-          "name": "腾讯 | 无意云",
-          "type": 3,
-          "api": "./ext/drpy2.min.js",
-          "ext": "./ext/腾讯无意云.js"
-      },
-      {
-          "key": "芒果视频无意云",
-          "name": "芒果 | 无意云",
-          "type": 3,
-          "api": "./ext/drpy2.min.js",
-          "ext": "./ext/芒果无意云.js"
-      },
-      {
-          "key": "无意哔哩无意云",
-          "name": "哔哩 | 无意云",
-          "type": 3,
-          "api": "./ext/drpy2.min.js",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "./ext/哔哩无意云.js"
-      },
-      {
-          "key": "爱奇艺无意云",
-          "name": "爱奇艺 | 无意云",
-          "type": 3,
-          "api": "./ext/drpy2.min.js",
-          "ext": "./ext/奇艺无意云.js"
-      },
-      {
-          "key": "优酷视频无意云",
-          "name": "优酷 | 无意云",
-          "type": 3,
-          "api": "./ext/drpy2.min.js",
-         "ext": "./ext/优酷无意云.js"     
-      },
        {
           "key": "feifan",
           "name": "非凡资源",
@@ -1523,21 +1390,6 @@
          "filterable": 1
       },
       {
-        "key": "官源",
-        "name": "官采 | 资源",
-        "type": 1,
-        "api": "https://cj.jusj.top/api.php/provide/vod/?ac=list",
-        "searchable": 1,
-        "changeable": 1
-      },
-      {
-        "key": "drpy_js_360影视",
-        "name": "官源 | 360[js]",
-        "type": 3,
-        "api": "https://qist.swsixtwo.top/lib/drpy2.min.js",
-        "ext": "https://qist.swsixtwo.top/js/360%E5%BD%B1%E8%A7%86.js"
-      },
-      {
         "key": "drpy_js_芒果",
         "name": "官源 | 芒果[js]",
         "type": 3,
@@ -1673,30 +1525,10 @@
    "timeout": 60
   },
   {
-   "key": "指南",
-   "name": "🎬指南 • 4K🎬",
-   "type": 3,
-   "api": "csp_4KZhinan",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "timeout": 60
-  },
-  {
    "key": "移动",
    "name": "📱移动 • 4K📱",
    "type": 3,
    "api": "csp_Yidong4K",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "timeout": 60
-  },
-  {
-   "key": "人人",
-   "name": "👥人人 • 4K👥",
-   "type": 3,
-   "api": "csp_RenRen",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -1830,7 +1662,7 @@
    "timeout": 60
   },
   {
-   "key": "剧下饭4K",
+   "key": "剧下饭4K%",
    "name": "🍚剧下饭 • 4K🍚",
    "type": 3,
    "api": "csp_JuXiaFan4K",
@@ -1878,17 +1710,6 @@
     "site": ["https://dongpian1.com"]
    },
    "timeout": 60
-  },
-  {
-   "key": "枫叶1080",
-   "name": "🍁枫叶 • 1080🍁",
-   "type": 3,
-   "api": "csp_FengYe",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "timeout": 60,
-   "ext": "https://www.vip1949.com/"
   },
   {
    "key": "海外1080",
@@ -1958,26 +1779,6 @@
    "name": "🌾麦田 • 1080🌾",
    "type": 3,
    "api": "csp_Mt1080",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 0,
-   "timeout": 60
-  },
-  {
-   "key": "Br1080",
-   "name": "👬兄弟 • 1080👬",
-   "type": 3,
-   "api": "csp_Br1080",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 0,
-   "timeout": 60
-  },
-  {
-   "key": "Cz1080",
-   "name": "🏭厂长 • 1080🏭",
-   "type": 3,
-   "api": "csp_Cz1080",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0,
@@ -2054,39 +1855,6 @@
    "style": {"type": "rect", "ratio": 1.6}
   },
   {
-   "key": "我的抖音",
-   "name": "👤抖音 • 我的👤",
-   "type": 3,
-   "api": "csp_DouyinMine",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 0,
-   "changeable": 0,
-   "ext": {"n": "我的抖音", "mode": "mine", "cookie": "http://127.0.0.1:9978/file/TVBox/douyin_cookie.txt"},
-   "style": {"type": "rect", "ratio": 0.75}
-  },
-  {
-   "key": "小白漫短",
-   "name": "🎬小白 • 漫短🎬",
-   "type": 3,
-   "api": "csp_XiaoBaiManDuan",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "timeout": 120
-  },
-  {
-   "key": "csp_XYQHiker_短剧五五",
-   "name": "🍎红果•漫短🍎",
-   "type": 3,
-   "api": "csp_XYQHiker",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQHiker/%E7%9F%AD%E5%89%A7%E4%BA%94%E4%BA%94.json",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar"
-  },
-  {
    "key": "七猫短剧",
    "name": "🐱七猫 • 短剧🐱",
    "type": 3,
@@ -2115,14 +1883,14 @@
    "genre": "shortdrama"
   },
   {
-   "key": "星芽短剧",
+   "key": "星芽短剧%",
    "name": "🌠星芽 • 短剧🌠",
    "type": 3,
    "api": "csp_ShortXingya",
    "genre": "shortdrama"
   },
   {
-   "key": "果果短剧",
+   "key": "果果短剧%",
    "name": "🍬果果 • 短剧🍬",
    "type": 3,
    "api": "csp_XBPQ",
@@ -2141,7 +1909,7 @@
    "searchable": 1,
    "api": "csp_AppGet",
    "ext": {
-    "url": "https://www.gugu3.com",
+    "url": "https://gugu.fan",
     "dataKey": "nKfZ8KX6JTNWRzTD",
     "dataIv": "nKfZ8KX6JTNWRzTD"
    }
