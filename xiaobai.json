@@ -45,6 +45,36 @@
    "timeout": 60
   },
  {
+   "key": "勾勾4K",
+   "name": "🧲勾勾 • 4K🧲",
+   "type": 3,
+   "api": "csp_JjSou",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "timeout": 60
+  },
+  {
+   "key": "DT盘4K",
+   "name": "💿DT盘•4K💿",
+   "type": 3,
+   "api": "csp_DtPan4K",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "timeout": 60
+  },
+  {
+   "key": "KK盘4K",
+   "name": "📀KK盘•4K📀",
+   "type": 3,
+   "api": "csp_KkPan4K",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0,
+   "timeout": 60
+  },
+ {
          "key":"央视频",
          "name":"央视频",
          "type":3,
@@ -1454,36 +1484,6 @@
    "api": "csp_DuoDuo4K",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 0,
-   "timeout": 60
-  },
-  {
-   "key": "勾勾4K",
-   "name": "🧲勾勾 • 4K🧲",
-   "type": 3,
-   "api": "csp_JjSou",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "timeout": 60
-  },
-  {
-   "key": "DT盘4K",
-   "name": "💿DT盘•4K💿",
-   "type": 3,
-   "api": "csp_DtPan4K",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 0,
-   "timeout": 60
-  },
-  {
-   "key": "KK盘4K",
-   "name": "📀KK盘•4K📀",
-   "type": 3,
-   "api": "csp_KkPan4K",
-   "searchable": 1,
-   "quickSearch": 0,
    "filterable": 0,
    "timeout": 60
   },
