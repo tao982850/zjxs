@@ -39,8 +39,7 @@
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
-         "filterable":1,
-         "playerType":2
+         "filterable":0
         },
 		{
          "key":"央视频-修复版",
@@ -50,8 +49,7 @@
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
-         "filterable":1,
-         "playerType":2
+         "filterable":0
         },
 		{
          "key":"广东荔枝电视台",
@@ -61,8 +59,7 @@
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
-         "filterable":1,
-         "playerType":2
+         "filterable":0
         },
 		{
          "key":"HDRip",
@@ -72,8 +69,7 @@
          "searchable":1,
          "changeable":1,
          "quickSearch":1,
-         "filterable":1,
-         "playerType":2
+         "filterable":0
         },
 		{
          "key":"裤佬全家桶",
