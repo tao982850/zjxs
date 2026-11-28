@@ -159,14 +159,6 @@
       "filterable": 1,
       "timeout": 60
     },
-     {
-         "key": "pansou",
-         "name": "盘搜|集合",
-         "type": 4,
-          "api": "http://103.205.254.65:15151/wanpan.php?type=quark%7Cuc%7Cbaidu%7Ctianyi%7Cxunlei%7C123",
-          "searchable": 1,
-           "quickSearch": 1
-    },
     {
       "key": "迅雷吧",
       "name": "🧲迅雷吧 • 磁力🧲",
