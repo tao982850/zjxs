@@ -73,6 +73,16 @@
       "quickSearch": 1,
       "filterable": 0,
       "timeout": 60
+    }, 
+    {
+        "key": "wogg",
+        "name": "玩偶哥哥",
+        "type": 3,
+        "api": "./py/wogg.py",
+        "searchable": 1,
+        "quickSearch": 1,
+       "filterable": 1,
+        "ext": {"site": ["www.wogg.net", "woggpan.888484.xyz"]}
     },
     {
       "key": "花卷4K",
